@@ -6,38 +6,38 @@
         "method": "Stir, top",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "El Dorado 8",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Honey 2:1",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Prosecco",
                 "type": "ingredient"
             }
@@ -53,32 +53,32 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Dry Sherry",
                 "type": "ingredient"
             },
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Dry Vermouth",
                 "type": "ingredient"
             },
             {
-                "amount": "7.5",
-                "measurement": "ml",
+                "quantity": "7.5",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "Dash",
+                "quantity": "2",
+                "unit": "Dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "Dash",
+                "quantity": "2",
+                "unit": "Dash",
                 "ingredient": "Regan's",
                 "type": "ingredient"
             }
@@ -94,20 +94,20 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Bellini mix",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Funkin peach puree",
                 "type": "ingredient"
             },
             {
-                "amount": "75",
-                "measurement": "ml",
+                "quantity": "75",
+                "unit": "ml",
                 "ingredient": "Prosecco",
                 "type": "ingredient"
             }
@@ -123,26 +123,26 @@
         "method": "Build in glass, stir",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Vodka",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Bloody Mary Mix",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lemon juice",
                 "type": "ingredient"
             },
             {
-                "amount": "TOP",
-                "measurement": "ml",
+                "quantity": "TOP",
+                "unit": "ml",
                 "ingredient": "Tomato juice",
                 "type": "ingredient"
             }
@@ -158,26 +158,26 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Blended Scotch",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Yellow chartreuse",
                 "type": "ingredient"
             },
             {
-                "amount": "4",
-                "measurement": "dashes",
+                "quantity": "4",
+                "unit": "dashes",
                 "ingredient": "Regan's Orange Bitters",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dashes",
+                "quantity": "3",
+                "unit": "dashes",
                 "ingredient": "salt",
                 "type": "ingredient"
             }
@@ -193,32 +193,32 @@
         "method": "Churn",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Mure",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             }
@@ -234,26 +234,26 @@
         "method": "Build",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "top",
-                "measurement": "",
+                "quantity": "top",
+                "unit": "",
                 "ingredient": "COLD soda",
                 "type": "ingredient"
             }
@@ -269,20 +269,20 @@
         "method": "Shake/Strain",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Vodka",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Coffee liqueur",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Coffee Mix",
                 "type": "ingredient"
             }
@@ -298,20 +298,20 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "House dry vermouth",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Benedictine",
                 "type": "ingredient"
             }
@@ -327,20 +327,20 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Apple juice",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "House vodka",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Pornstar Mix",
                 "type": "ingredient"
             }
@@ -356,38 +356,38 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Bacardi",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Pornstar",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lime",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Campari",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             }
@@ -403,20 +403,20 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Aluna",
                 "type": "ingredient"
             },
             {
-                "amount": "60",
-                "measurement": "ml",
+                "quantity": "60",
+                "unit": "ml",
                 "ingredient": "Pina Colada mix",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Pineapple juice",
                 "type": "ingredient"
             }
@@ -432,26 +432,26 @@
         "method": "shake",
         "ingredients": [
             {
-                "amount": "75",
-                "measurement": "ml",
+                "quantity": "75",
+                "unit": "ml",
                 "ingredient": "Zombie mix",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Grapefruit Juice",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Pineapple juice",
                 "type": "ingredient"
             }
@@ -467,38 +467,38 @@
         "method": "Shake, top",
         "ingredients": [
             {
-                "amount": "1",
-                "measurement": "coin",
+                "quantity": "1",
+                "unit": "coin",
                 "ingredient": "Cucumber, muddle",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "pinch",
+                "quantity": "1",
+                "unit": "pinch",
                 "ingredient": "mint leaves",
                 "type": "ingredient"
             },
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lime",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             }
@@ -514,38 +514,38 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Dolin Blanc",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Boudier Lychee",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Pink gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Apple",
                 "type": "ingredient"
             },
             {
-                "amount": "7.5",
-                "measurement": "ml",
+                "quantity": "7.5",
+                "unit": "ml",
                 "ingredient": "Conc S&S",
                 "type": "ingredient"
             },
             {
-                "amount": "4",
-                "measurement": "dash",
+                "quantity": "4",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             }
@@ -561,32 +561,32 @@
         "method": "Stir, layer",
         "ingredients": [
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Vodka",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Alexander mix",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Boudier Coffee",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dash",
+                "quantity": "3",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Half & Half",
                 "type": "ingredient"
             }
@@ -602,26 +602,26 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Vodka",
                 "type": "ingredient"
             },
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "East 8 Mix",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Aperol",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lime",
                 "type": "ingredient"
             }
@@ -637,38 +637,38 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Rittenhouse",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "HSV",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Benedictine",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dash",
+                "quantity": "3",
+                "unit": "dash",
                 "ingredient": "Peychaud's",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Angostura",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "Absinthe",
                 "type": "ingredient"
             }
@@ -684,38 +684,38 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Havana 3",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Grapefruit",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Maraschino",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             }
@@ -731,20 +731,20 @@
         "method": "STIR",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Bourbon",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "HSV",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Campari",
                 "type": "ingredient"
             }
@@ -760,32 +760,32 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Whisky",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Amaretto",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Noix St Jean",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "HSV",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dashes",
+                "quantity": "3",
+                "unit": "dashes",
                 "ingredient": "house bitters",
                 "type": "ingredient"
             }
@@ -801,26 +801,26 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "El Dorado 8",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Apple juice",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dashes",
+                "quantity": "3",
+                "unit": "dashes",
                 "ingredient": "House bitters",
                 "type": "ingredient"
             }
@@ -836,44 +836,44 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Bourbon",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Montenegro",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lemon juice",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Aperol",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dashes",
+                "quantity": "2",
+                "unit": "dashes",
                 "ingredient": "Regan's",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dashes",
+                "quantity": "1",
+                "unit": "dashes",
                 "ingredient": "Salt",
                 "type": "ingredient"
             }
@@ -889,44 +889,44 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Vodka",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Galliano",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Lemon juice",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Elliot mix",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dashes",
+                "quantity": "2",
+                "unit": "dashes",
                 "ingredient": "Salt",
                 "type": "ingredient"
             },
             {
-                "amount": "75",
-                "measurement": "ml",
+                "quantity": "75",
+                "unit": "ml",
                 "ingredient": "Fresh OJ",
                 "type": "ingredient"
             }
@@ -942,32 +942,32 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Navy Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Sugar 1:1",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dash",
+                "quantity": "3",
+                "unit": "dash",
                 "ingredient": "Regan's",
                 "type": "ingredient"
             }
@@ -983,32 +983,32 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Green Chartreuse",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Maraschino",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             }
@@ -1024,32 +1024,32 @@
         "method": "Churn",
         "ingredients": [
             {
-                "amount": "5",
-                "measurement": "Cubes",
+                "quantity": "5",
+                "unit": "Cubes",
                 "ingredient": "Lime",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Sugar 1:1",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Cachaca",
                 "type": "ingredient"
             }
@@ -1065,38 +1065,38 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Cointreau",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Egg white",
                 "type": "ingredient"
             }
@@ -1112,20 +1112,20 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Rye / Bourbon",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "HSV",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "House Bitters",
                 "type": "ingredient"
             }
@@ -1141,38 +1141,38 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "white rum",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "cognac",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "curacao",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "lemon juice",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "sugar",
                 "type": "ingredient"
             }
@@ -1188,20 +1188,20 @@
         "method": "Stirred",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "58 Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "58 Navy",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "HDV",
                 "type": "ingredient"
             }
@@ -1217,20 +1217,20 @@
         "method": "Stirred",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Bourbon",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Sugs",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dashes",
+                "quantity": "3",
+                "unit": "dashes",
                 "ingredient": "House Bitters",
                 "type": "ingredient"
             }
@@ -1246,38 +1246,38 @@
         "method": "Muddle // churn",
         "ingredients": [
             {
-                "amount": "4",
-                "measurement": "pcs",
+                "quantity": "4",
+                "unit": "pcs",
                 "ingredient": "Lime cubes",
                 "type": "ingredient"
             },
             {
-                "amount": "Handful",
-                "measurement": "Leaves",
+                "quantity": "Handful",
+                "unit": "Leaves",
                 "ingredient": "Mint",
                 "type": "ingredient"
             },
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "White rum",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Sugs",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lime",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             }
@@ -1293,38 +1293,38 @@
         "method": "Shaken",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Amaretto",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Bourbon",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Sugs",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Egg white",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dashes",
+                "quantity": "3",
+                "unit": "dashes",
                 "ingredient": "House Bitters",
                 "type": "ingredient"
             }
@@ -1340,32 +1340,32 @@
         "method": "Shaken",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Pisco",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Lime",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Sugs",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Egg white",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             }
@@ -1381,20 +1381,20 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Bees Mix",
                 "type": "ingredient"
             }
@@ -1410,20 +1410,20 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Cognac",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Half & Half",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Alexander Mix",
                 "type": "ingredient"
             }
@@ -1439,26 +1439,26 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lemon juice",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Clover mix",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Egg white",
                 "type": "ingredient"
             }
@@ -1474,50 +1474,50 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "35",
-                "measurement": "ml",
+                "quantity": "35",
+                "unit": "ml",
                 "ingredient": "Pere Magloire",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Briottet Peche",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml (splash)",
+                "quantity": "10",
+                "unit": "ml (splash)",
                 "ingredient": "Soda",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Egg white",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Regan's",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             }
@@ -1543,32 +1543,32 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "GL Syrup",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Glenmorangie",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Wee Beastie",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Honey 2:1",
                 "type": "ingredient"
             }
@@ -1584,20 +1584,20 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Tequila",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Margarita mix",
                 "type": "ingredient"
             }
@@ -1613,44 +1613,44 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Cointreau",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Cocchi",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dash",
+                "quantity": "3",
+                "unit": "dash",
                 "ingredient": "absinthe",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "sugar",
                 "type": "ingredient"
             }
@@ -1666,26 +1666,26 @@
         "method": "shake",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Cosmo mix",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Cranberry juice",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "vodka",
                 "type": "ingredient"
             }
@@ -1701,26 +1701,26 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "60",
-                "measurement": "ml",
+                "quantity": "60",
+                "unit": "ml",
                 "ingredient": "Singapore mix",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Pineapple juice",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             }
@@ -1736,32 +1736,32 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "75",
-                "measurement": "ml",
+                "quantity": "75",
+                "unit": "ml",
                 "ingredient": "Missionary Mix",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Eager pineapple",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "",
-                "measurement": "",
+                "quantity": "",
+                "unit": "",
                 "ingredient": "Mint leaves",
                 "type": "ingredient"
             },
             {
-                "amount": "",
-                "measurement": "",
+                "quantity": "",
+                "unit": "",
                 "ingredient": "Soda top",
                 "type": "ingredient"
             }
@@ -1777,26 +1777,26 @@
         "method": "SHAKEN",
         "ingredients": [
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "75",
-                "measurement": "ml",
+                "quantity": "75",
+                "unit": "ml",
                 "ingredient": "Prosecco",
                 "type": "ingredient"
             }
@@ -1812,32 +1812,32 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Vodka",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Alexander mix",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Menthe",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Half & Half",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             }
@@ -1853,20 +1853,20 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "60",
-                "measurement": "ml",
+                "quantity": "60",
+                "unit": "ml",
                 "ingredient": "Mai Tai Mix",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Orgeat",
                 "type": "ingredient"
             },
             {
-                "amount": "20-25",
-                "measurement": "ml",
+                "quantity": "20-25",
+                "unit": "ml",
                 "ingredient": "Lime",
                 "type": "ingredient"
             }
@@ -1882,14 +1882,14 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "60",
-                "measurement": "ml",
+                "quantity": "60",
+                "unit": "ml",
                 "ingredient": "Toreador Mix",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lime",
                 "type": "ingredient"
             }
@@ -1905,38 +1905,38 @@
         "method": "Shake, top with prosecco",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "El Dorado 8",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lime",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "pinch",
+                "quantity": "1",
+                "unit": "pinch",
                 "ingredient": "Mint",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "house bitters",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Prosecco",
                 "type": "ingredient"
             }
@@ -1952,26 +1952,26 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lime",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "pinch",
+                "quantity": "1",
+                "unit": "pinch",
                 "ingredient": "mint",
                 "type": "ingredient"
             }
@@ -1987,26 +1987,26 @@
         "method": "Build",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Toreador Mix",
                 "type": "ingredient"
             },
             {
-                "amount": "15-20",
-                "measurement": "ml",
+                "quantity": "15-20",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Soda",
                 "type": "ingredient"
             },
             {
-                "amount": "top (50ml ish)",
-                "measurement": "",
+                "quantity": "top (50ml ish)",
+                "unit": "",
                 "ingredient": "Grapefruit soda",
                 "type": "ingredient"
             }
@@ -2022,32 +2022,32 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Scotch",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Peated",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Drambuie",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "HSV",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             }
@@ -2063,32 +2063,32 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Mezcal (Vida)",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Yellow Chartreuse",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Aperol",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dashes",
+                "quantity": "1",
+                "unit": "dashes",
                 "ingredient": "Salt",
                 "type": "ingredient"
             }
@@ -2104,38 +2104,38 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "35",
-                "measurement": "ml",
+                "quantity": "35",
+                "unit": "ml",
                 "ingredient": "Tanqueray",
                 "type": "ingredient"
             },
             {
-                "amount": "35",
-                "measurement": "ml",
+                "quantity": "35",
+                "unit": "ml",
                 "ingredient": "Cocchi Torino",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Fernet",
                 "type": "ingredient"
             },
             {
-                "amount": "2.5",
-                "measurement": "ml",
+                "quantity": "2.5",
+                "unit": "ml",
                 "ingredient": "OJ",
                 "type": "ingredient"
             },
             {
-                "amount": "2.5",
-                "measurement": "ml",
+                "quantity": "2.5",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Regan's",
                 "type": "ingredient"
             }
@@ -2151,38 +2151,38 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Hennessy VS",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lemon juice",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Ferrand Curacao",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Regan's",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             }
@@ -2198,38 +2198,38 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lemon Juice",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Maraschino",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Bitter Truth Violet",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Sugar",
                 "type": "ingredient"
             }
@@ -2245,38 +2245,38 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Manzanilla",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lemon juice",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Sugar 1:1",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "Salt",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "Regan's",
                 "type": "ingredient"
             }
@@ -2292,26 +2292,26 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Calvados",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Fresh grenadine",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dash",
+                "quantity": "1",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             }
@@ -2327,38 +2327,38 @@
         "method": "Stir",
         "ingredients": [
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Rye",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Cognac",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "HSV",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Benedictine",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "ango",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "Peychaud's",
                 "type": "ingredient"
             }
@@ -2374,38 +2374,38 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Ango Amaro",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Smith & Cross",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Orgeat",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Egg white",
                 "type": "ingredient"
             }
@@ -2421,38 +2421,38 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "gin",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "sloe gin",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "apricot",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "lime",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "sugar",
                 "type": "ingredient"
             }
@@ -2468,44 +2468,44 @@
         "method": "Shake",
         "ingredients": [
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Aluna",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Midori",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Giffard Banane",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Havana",
                 "type": "ingredient"
             },
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "Pineapple",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dash",
+                "quantity": "2",
+                "unit": "dash",
                 "ingredient": "salt",
                 "type": "ingredient"
             }
@@ -2521,44 +2521,44 @@
         "method": "shake",
         "ingredients": [
             {
-                "amount": "40",
-                "measurement": "ml",
+                "quantity": "40",
+                "unit": "ml",
                 "ingredient": "El Dorado 8",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Campari",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Pineapple juice",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Lime juice",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "sugar",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dashes",
+                "quantity": "2",
+                "unit": "dashes",
                 "ingredient": "salt",
                 "type": "ingredient"
             },
             {
-                "amount": "5",
-                "measurement": "ml",
+                "quantity": "5",
+                "unit": "ml",
                 "ingredient": "Smith n Cross",
                 "type": "ingredient"
             }
@@ -2574,26 +2574,26 @@
         "method": "Stirred",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "58 Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "58 Navy",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "HDV",
                 "type": "ingredient"
             },
             {
-                "amount": "15",
-                "measurement": "ml",
+                "quantity": "15",
+                "unit": "ml",
                 "ingredient": "Olive brine",
                 "type": "ingredient"
             }
@@ -2609,20 +2609,20 @@
         "method": "Stirred",
         "ingredients": [
             {
-                "amount": "30",
-                "measurement": "ml",
+                "quantity": "30",
+                "unit": "ml",
                 "ingredient": "Gin",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "HSV",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Campari",
                 "type": "ingredient"
             }
@@ -2638,38 +2638,38 @@
         "method": "Stirred",
         "ingredients": [
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Cognac",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Rye",
                 "type": "ingredient"
             },
             {
-                "amount": "10",
-                "measurement": "ml",
+                "quantity": "10",
+                "unit": "ml",
                 "ingredient": "Sugs",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dashes",
+                "quantity": "3",
+                "unit": "dashes",
                 "ingredient": "Peychaud's",
                 "type": "ingredient"
             },
             {
-                "amount": "2",
-                "measurement": "dashes",
+                "quantity": "2",
+                "unit": "dashes",
                 "ingredient": "Absinthe",
                 "type": "ingredient"
             },
             {
-                "amount": "1",
-                "measurement": "dashes",
+                "quantity": "1",
+                "unit": "dashes",
                 "ingredient": "Salt",
                 "type": "ingredient"
             }
@@ -2685,32 +2685,32 @@
         "method": "Shaken",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "Bourbon",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Lemon",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Sugs",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Egg White",
                 "type": "ingredient"
             },
             {
-                "amount": "3",
-                "measurement": "dashes",
+                "quantity": "3",
+                "unit": "dashes",
                 "ingredient": "House Bitters",
                 "type": "ingredient"
             }
@@ -2726,20 +2726,20 @@
         "method": "Shaken",
         "ingredients": [
             {
-                "amount": "50",
-                "measurement": "ml",
+                "quantity": "50",
+                "unit": "ml",
                 "ingredient": "White rum",
                 "type": "ingredient"
             },
             {
-                "amount": "25",
-                "measurement": "ml",
+                "quantity": "25",
+                "unit": "ml",
                 "ingredient": "Lime",
                 "type": "ingredient"
             },
             {
-                "amount": "20",
-                "measurement": "ml",
+                "quantity": "20",
+                "unit": "ml",
                 "ingredient": "Sugs",
                 "type": "ingredient"
             }
