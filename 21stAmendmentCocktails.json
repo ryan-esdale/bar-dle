@@ -1,0 +1,2751 @@
+[
+    {
+        "name": "Air Mail",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Stir, top",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "El Dorado 8",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Honey 2:1",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Prosecco",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lemon twist, skewer",
+        "extra": ""
+    },
+    {
+        "name": "Bamboo",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Dry Sherry",
+                "type": "ingredient"
+            },
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Dry Vermouth",
+                "type": "ingredient"
+            },
+            {
+                "amount": "7.5",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "Dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "Dash",
+                "ingredient": "Regan's",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange twist, skewer",
+        "extra": ""
+    },
+    {
+        "name": "Bellini",
+        "glass": "Flute",
+        "ice": "-",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Bellini mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Funkin peach puree",
+                "type": "ingredient"
+            },
+            {
+                "amount": "75",
+                "measurement": "ml",
+                "ingredient": "Prosecco",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "",
+        "extra": "For efficiency, stir ingredients with prosecco splash, finish."
+    },
+    {
+        "name": "Bloody Mary",
+        "glass": "Highball",
+        "ice": "Cubed",
+        "method": "Build in glass, stir",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Vodka",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Bloody Mary Mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lemon juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "TOP",
+                "measurement": "ml",
+                "ingredient": "Tomato juice",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Go mental",
+        "extra": "Fucking mental."
+    },
+    {
+        "name": "Broadmoor",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Blended Scotch",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Yellow chartreuse",
+                "type": "ingredient"
+            },
+            {
+                "amount": "4",
+                "measurement": "dashes",
+                "ingredient": "Regan's Orange Bitters",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dashes",
+                "ingredient": "salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange twist",
+        "extra": ""
+    },
+    {
+        "name": "Bramble",
+        "glass": "Rocks",
+        "ice": "Crushed",
+        "method": "Churn",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Mure",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "Shot glass with mure",
+        "garnish": "Shot glass / Mint sprig",
+        "extra": ""
+    },
+    {
+        "name": "Tom Collins",
+        "glass": "10oz Highball",
+        "ice": "Cubed",
+        "method": "Build",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "top",
+                "measurement": "",
+                "ingredient": "COLD soda",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lemon wheel",
+        "extra": ""
+    },
+    {
+        "name": "Espresso Martini",
+        "glass": "Baby Coupe",
+        "ice": "-",
+        "method": "Shake/Strain",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Vodka",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Coffee liqueur",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Coffee Mix",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "coco powder and icing sugar dusting",
+        "extra": ""
+    },
+    {
+        "name": "Ford Cocktail",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "House dry vermouth",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Benedictine",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange twist",
+        "extra": ""
+    },
+    {
+        "name": "Pornstar Martini",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Apple juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "House vodka",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Pornstar Mix",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Flower // Prosecco shot OTS",
+        "extra": ""
+    },
+    {
+        "name": "Dry Daiquiri",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Bacardi",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Pornstar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Campari",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange zest",
+        "extra": ""
+    },
+    {
+        "name": "Pina Colada",
+        "glass": "Sling",
+        "ice": "Cubed, crush crown",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Aluna",
+                "type": "ingredient"
+            },
+            {
+                "amount": "60",
+                "measurement": "ml",
+                "ingredient": "Pina Colada mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Pineapple juice",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Banana leaves, dehydrated orange",
+        "extra": ""
+    },
+    {
+        "name": "Zombie",
+        "glass": "Hurricane",
+        "ice": "Cubed/crushed",
+        "method": "shake",
+        "ingredients": [
+            {
+                "amount": "75",
+                "measurement": "ml",
+                "ingredient": "Zombie mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Grapefruit Juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Pineapple juice",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Even tikier than fuck",
+        "extra": ""
+    },
+    {
+        "name": "East Side",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake, top",
+        "ingredients": [
+            {
+                "amount": "1",
+                "measurement": "coin",
+                "ingredient": "Cucumber, muddle",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "pinch",
+                "ingredient": "mint leaves",
+                "type": "ingredient"
+            },
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Mint leaf",
+        "extra": ""
+    },
+    {
+        "name": "Lychee Martini",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Dolin Blanc",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Boudier Lychee",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Pink gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Apple",
+                "type": "ingredient"
+            },
+            {
+                "amount": "7.5",
+                "measurement": "ml",
+                "ingredient": "Conc S&S",
+                "type": "ingredient"
+            },
+            {
+                "amount": "4",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Flower",
+        "extra": "Lemon discard"
+    },
+    {
+        "name": "White Russian",
+        "glass": "Small rocks",
+        "ice": "Small block",
+        "method": "Stir, layer",
+        "ingredients": [
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Vodka",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Alexander mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Boudier Coffee",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Half & Half",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Nutmeg",
+        "extra": "Spoon"
+    },
+    {
+        "name": "East 8",
+        "glass": "Rocks",
+        "ice": "Cubed",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Vodka",
+                "type": "ingredient"
+            },
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "East 8 Mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Aperol",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lime Cube",
+        "extra": ""
+    },
+    {
+        "name": "Louisiane",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Rittenhouse",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "HSV",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Benedictine",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dash",
+                "ingredient": "Peychaud's",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Angostura",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "Absinthe",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange twist",
+        "extra": ""
+    },
+    {
+        "name": "Hemingway",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Havana 3",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Grapefruit",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Maraschino",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Grapefruit twist or cherry",
+        "extra": "Lemon discard"
+    },
+    {
+        "name": "Boulevardier",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "STIR",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Bourbon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "HSV",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Campari",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange twist",
+        "extra": ""
+    },
+    {
+        "name": "Godfather",
+        "glass": "Rocks",
+        "ice": "Block",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Whisky",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Amaretto",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Noix St Jean",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "HSV",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dashes",
+                "ingredient": "house bitters",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "Traditionally scotch, better bourbon",
+        "garnish": "Orange twist",
+        "extra": ""
+    },
+    {
+        "name": "Treacle",
+        "glass": "Rocks",
+        "ice": "Block",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "El Dorado 8",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Apple juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dashes",
+                "ingredient": "House bitters",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange twist",
+        "extra": ""
+    },
+    {
+        "name": "Paper Plane",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Bourbon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Montenegro",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lemon juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Aperol",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dashes",
+                "ingredient": "Regan's",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dashes",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange Twist",
+        "extra": ""
+    },
+    {
+        "name": "Harvey Wallbanger",
+        "glass": "Straight-edge Collins",
+        "ice": "Cubed",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Vodka",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Galliano",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Lemon juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Elliot mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dashes",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "75",
+                "measurement": "ml",
+                "ingredient": "Fresh OJ",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "Beware OJ variations, season",
+        "garnish": "Lemon Wheel",
+        "extra": "OJ twist"
+    },
+    {
+        "name": "Gimlet",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Navy Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Sugar 1:1",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dash",
+                "ingredient": "Regan's",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Dehydrated lime",
+        "extra": ""
+    },
+    {
+        "name": "Last Word",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Green Chartreuse",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Maraschino",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Maraschino cherry",
+        "extra": "Lemon zest discard"
+    },
+    {
+        "name": "Caipirinha",
+        "glass": "Rocks",
+        "ice": "Crushed",
+        "method": "Churn",
+        "ingredients": [
+            {
+                "amount": "5",
+                "measurement": "Cubes",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Sugar 1:1",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Cachaca",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "Sub vodka for 'oska, rum for 'issima",
+        "garnish": "Bombilla, Lime cube on skewer",
+        "extra": ""
+    },
+    {
+        "name": "White Lady",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Cointreau",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Egg white",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "Lemon zest discard",
+        "garnish": "flower?",
+        "extra": "Bitters pattern?"
+    },
+    {
+        "name": "Manhattan",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Rye / Bourbon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "HSV",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "House Bitters",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange discard, cherry",
+        "extra": "Others for dry etc."
+    },
+    {
+        "name": "Between the Sheets",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "white rum",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "cognac",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "curacao",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "lemon juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "sugar",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lemon twist skewer",
+        "extra": ""
+    },
+    {
+        "name": "Martini",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Stirred",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "58 Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "58 Navy",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "HDV",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lemon twist/Olive",
+        "extra": ""
+    },
+    {
+        "name": "Old Fashioned",
+        "glass": "Turbo rocks",
+        "ice": "Block",
+        "method": "Stirred",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Bourbon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Sugs",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dashes",
+                "ingredient": "House Bitters",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange Twist",
+        "extra": ""
+    },
+    {
+        "name": "Mojito",
+        "glass": "Piccadilly",
+        "ice": "Crushed",
+        "method": "Muddle // churn",
+        "ingredients": [
+            {
+                "amount": "4",
+                "measurement": "pcs",
+                "ingredient": "Lime cubes",
+                "type": "ingredient"
+            },
+            {
+                "amount": "Handful",
+                "measurement": "Leaves",
+                "ingredient": "Mint",
+                "type": "ingredient"
+            },
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "White rum",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Sugs",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "Muddle, big churn",
+        "garnish": "Mint Sprig",
+        "extra": ""
+    },
+    {
+        "name": "Amaretto Sour",
+        "glass": "Rocks",
+        "ice": "Cubes",
+        "method": "Shaken",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Amaretto",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Bourbon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Sugs",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Egg white",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dashes",
+                "ingredient": "House Bitters",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Dehydrated orange, orange twist",
+        "extra": "mini straw"
+    },
+    {
+        "name": "Pisco Sour",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shaken",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Pisco",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Sugs",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Egg white",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Marbling, flower",
+        "extra": ""
+    },
+    {
+        "name": "Bees Knees",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Bees Mix",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lemon twist, skewer",
+        "extra": ""
+    },
+    {
+        "name": "Brandy Alexander",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Cognac",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Half & Half",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Alexander Mix",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Nutmeg",
+        "extra": ""
+    },
+    {
+        "name": "Clover Club",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lemon juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Clover mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Egg white",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Flower // Lemon discard",
+        "extra": ""
+    },
+    {
+        "name": "Delicious Sour",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "35",
+                "measurement": "ml",
+                "ingredient": "Pere Magloire",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Briottet Peche",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml (splash)",
+                "ingredient": "Soda",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Egg white",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Regan's",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "Shake with soda splash",
+        "garnish": "Flower",
+        "extra": "Lemon discard"
+    },
+    {
+        "name": "El Presidente",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Stir",
+        "ingredients": [],
+        "serve_notes": "",
+        "garnish": "Orange twist",
+        "extra": "rework"
+    },
+    {
+        "name": "Penicillin",
+        "glass": "Tubo rocks",
+        "ice": "Small block",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "GL Syrup",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Glenmorangie",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Wee Beastie",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Honey 2:1",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lemon Twist",
+        "extra": ""
+    },
+    {
+        "name": "Margarita",
+        "glass": "....",
+        "ice": "....",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Tequila",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Margarita mix",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "....ask.",
+        "garnish": "",
+        "extra": ""
+    },
+    {
+        "name": "Corpse Reviver #2",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Cointreau",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Cocchi",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dash",
+                "ingredient": "absinthe",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "sugar",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lemon twist",
+        "extra": ""
+    },
+    {
+        "name": "Cosmo",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "shake",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Cosmo mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Cranberry juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "vodka",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange twist",
+        "extra": ""
+    },
+    {
+        "name": "Singapore Sling",
+        "glass": "Sling",
+        "ice": "Cubed",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "60",
+                "measurement": "ml",
+                "ingredient": "Singapore mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Pineapple juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "Dash soda on top",
+        "garnish": "Dehydrated orange (dusted), orange twist",
+        "extra": "Soda top if needed"
+    },
+    {
+        "name": "Missionary's Downfall",
+        "glass": "Hurricane",
+        "ice": "Cubed, Crushed top",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "75",
+                "measurement": "ml",
+                "ingredient": "Missionary Mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Eager pineapple",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "",
+                "measurement": "",
+                "ingredient": "Mint leaves",
+                "type": "ingredient"
+            },
+            {
+                "amount": "",
+                "measurement": "",
+                "ingredient": "Soda top",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Big mint sprig, tiki bits.",
+        "extra": "Increase pineapple for Doris"
+    },
+    {
+        "name": "French 75",
+        "glass": "Flute",
+        "ice": "-",
+        "method": "SHAKEN",
+        "ingredients": [
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "75",
+                "measurement": "ml",
+                "ingredient": "Prosecco",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "CHILL GLASS",
+        "garnish": "Cherry",
+        "extra": "Lemon discard"
+    },
+    {
+        "name": "Grasshopper",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Vodka",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Alexander mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Menthe",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Half & Half",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Choc dusting",
+        "extra": "Swirl or something IDK"
+    },
+    {
+        "name": "Mai Tai",
+        "glass": "Large rocks",
+        "ice": "Cubed",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "60",
+                "measurement": "ml",
+                "ingredient": "Mai Tai Mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Orgeat",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20-25",
+                "measurement": "ml",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Tiki fun times",
+        "extra": ""
+    },
+    {
+        "name": "Toreador",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "60",
+                "measurement": "ml",
+                "ingredient": "Toreador Mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lem discard, lime on skewer",
+        "extra": ""
+    },
+    {
+        "name": "Old Cuban",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake, top with prosecco",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "El Dorado 8",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "pinch",
+                "ingredient": "Mint",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "house bitters",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Prosecco",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Mint leaf",
+        "extra": ""
+    },
+    {
+        "name": "Southside",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "pinch",
+                "ingredient": "mint",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "(2 dash absinthe for French Pearl)",
+        "garnish": "mint leaf",
+        "extra": ""
+    },
+    {
+        "name": "Paloma",
+        "glass": "Highball",
+        "ice": "Cubed",
+        "method": "Build",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Toreador Mix",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15-20",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Soda",
+                "type": "ingredient"
+            },
+            {
+                "amount": "top (50ml ish)",
+                "measurement": "",
+                "ingredient": "Grapefruit soda",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Grapefruit?",
+        "extra": "Otherwise lime on skewer"
+    },
+    {
+        "name": "Rusty Nail",
+        "glass": "Rocks",
+        "ice": "Block",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Scotch",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Peated",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Drambuie",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "HSV",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange twist",
+        "extra": "Wink from Mandi"
+    },
+    {
+        "name": "Naked & Famous",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Mezcal (Vida)",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Yellow Chartreuse",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Aperol",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dashes",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange twist",
+        "extra": ""
+    },
+    {
+        "name": "Hanky Panky",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "35",
+                "measurement": "ml",
+                "ingredient": "Tanqueray",
+                "type": "ingredient"
+            },
+            {
+                "amount": "35",
+                "measurement": "ml",
+                "ingredient": "Cocchi Torino",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Fernet",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2.5",
+                "measurement": "ml",
+                "ingredient": "OJ",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2.5",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Regan's",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange twist",
+        "extra": "Weird spec but great"
+    },
+    {
+        "name": "Sidecar",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Hennessy VS",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lemon juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Ferrand Curacao",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Regan's",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "86 sugar if sugar rim",
+        "garnish": "Orange twist",
+        "extra": ""
+    },
+    {
+        "name": "Aviation",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lemon Juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Maraschino",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Bitter Truth Violet",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Sugar",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "5ml for shit violette, 10 for Bitter Truth",
+        "garnish": "Maraschino cherry",
+        "extra": ""
+    },
+    {
+        "name": "London Calling",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Manzanilla",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lemon juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Sugar 1:1",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "Regan's",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Grapefruit zest",
+        "extra": ""
+    },
+    {
+        "name": "Jack Rose",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Calvados",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Fresh grenadine",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lemon twist",
+        "extra": ""
+    },
+    {
+        "name": "Vieux Carre",
+        "glass": "Goblet",
+        "ice": "Block ice",
+        "method": "Stir",
+        "ingredients": [
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Rye",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Cognac",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "HSV",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Benedictine",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "ango",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "Peychaud's",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange & cherry on skewer",
+        "extra": ""
+    },
+    {
+        "name": "Trinidad Sour",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Ango Amaro",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Smith & Cross",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Orgeat",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Egg white",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Flower",
+        "extra": "Marbling"
+    },
+    {
+        "name": "Charlie Chaplin",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "sloe gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "apricot",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "lime",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "sugar",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Lime skewer",
+        "extra": ""
+    },
+    {
+        "name": "Dune Bug",
+        "glass": "Sling",
+        "ice": "Cubed, crush top",
+        "method": "Shake",
+        "ingredients": [
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Aluna",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Midori",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Giffard Banane",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Havana",
+                "type": "ingredient"
+            },
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "Pineapple",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dash",
+                "ingredient": "salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Generic tiki",
+        "extra": ""
+    },
+    {
+        "name": "Jungle Bird",
+        "glass": "Straight rocks",
+        "ice": "Cubed",
+        "method": "shake",
+        "ingredients": [
+            {
+                "amount": "40",
+                "measurement": "ml",
+                "ingredient": "El Dorado 8",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Campari",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Pineapple juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Lime juice",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "sugar",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dashes",
+                "ingredient": "salt",
+                "type": "ingredient"
+            },
+            {
+                "amount": "5",
+                "measurement": "ml",
+                "ingredient": "Smith n Cross",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Generic tiki",
+        "extra": ""
+    },
+    {
+        "name": "Dirty Martini",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Stirred",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "58 Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "58 Navy",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "HDV",
+                "type": "ingredient"
+            },
+            {
+                "amount": "15",
+                "measurement": "ml",
+                "ingredient": "Olive brine",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Olive / lemon twist",
+        "extra": "(20ml for xtra dutty) (25ml for filthy) (60ml Absolut Elyx for vodka)"
+    },
+    {
+        "name": "Negroni",
+        "glass": "Turbo rocks",
+        "ice": "Block",
+        "method": "Stirred",
+        "ingredients": [
+            {
+                "amount": "30",
+                "measurement": "ml",
+                "ingredient": "Gin",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "HSV",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Campari",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Orange Twist",
+        "extra": ""
+    },
+    {
+        "name": "Sazerac",
+        "glass": "Turbo Rocks",
+        "ice": "-",
+        "method": "Stirred",
+        "ingredients": [
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Cognac",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Rye",
+                "type": "ingredient"
+            },
+            {
+                "amount": "10",
+                "measurement": "ml",
+                "ingredient": "Sugs",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dashes",
+                "ingredient": "Peychaud's",
+                "type": "ingredient"
+            },
+            {
+                "amount": "2",
+                "measurement": "dashes",
+                "ingredient": "Absinthe",
+                "type": "ingredient"
+            },
+            {
+                "amount": "1",
+                "measurement": "dashes",
+                "ingredient": "Salt",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "Obviously for 50/50",
+        "garnish": "Orange Discard",
+        "extra": ""
+    },
+    {
+        "name": "Whiskey Sour",
+        "glass": "Rocks",
+        "ice": "Cubes",
+        "method": "Shaken",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "Bourbon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Lemon",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Sugs",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Egg White",
+                "type": "ingredient"
+            },
+            {
+                "amount": "3",
+                "measurement": "dashes",
+                "ingredient": "House Bitters",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "Dehydrated orange, lemon twist",
+        "extra": "smol straw"
+    },
+    {
+        "name": "Daiquiri",
+        "glass": "Coupe",
+        "ice": "-",
+        "method": "Shaken",
+        "ingredients": [
+            {
+                "amount": "50",
+                "measurement": "ml",
+                "ingredient": "White rum",
+                "type": "ingredient"
+            },
+            {
+                "amount": "25",
+                "measurement": "ml",
+                "ingredient": "Lime",
+                "type": "ingredient"
+            },
+            {
+                "amount": "20",
+                "measurement": "ml",
+                "ingredient": "Sugs",
+                "type": "ingredient"
+            }
+        ],
+        "serve_notes": "",
+        "garnish": "",
+        "extra": ""
+    }
+]
