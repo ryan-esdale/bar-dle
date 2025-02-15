@@ -1,0 +1,489 @@
+[
+    {
+      "name": "Martini",
+      "glass": "Martini Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "60 ml" },
+        { "name": "Dry Vermouth", "quantity": "10 ml" },
+        { "name": "Orange Bitters", "quantity": "1 dash" }
+      ]
+    },
+    {
+      "name": "Negroni",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "30 ml" },
+        { "name": "Campari", "quantity": "30 ml" },
+        { "name": "Sweet Vermouth", "quantity": "30 ml" }
+      ]
+    },
+    {
+      "name": "Manhattan",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Rye Whiskey", "quantity": "50 ml" },
+        { "name": "Sweet Vermouth", "quantity": "20 ml" },
+        { "name": "Angostura Bitters", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "Old Fashioned",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Bourbon or Rye Whiskey", "quantity": "45 ml" },
+        { "name": "Simple Syrup", "quantity": "5 ml" },
+        { "name": "Angostura Bitters", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "Margarita",
+      "glass": "Margarita Glass",
+      "ingredients": [
+        { "name": "Tequila", "quantity": "50 ml" },
+        { "name": "Triple Sec", "quantity": "25 ml" },
+        { "name": "Lime Juice", "quantity": "25 ml" }
+      ]
+    },
+    {
+      "name": "Daiquiri",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "White Rum", "quantity": "45 ml" },
+        { "name": "Lime Juice", "quantity": "25 ml" },
+        { "name": "Simple Syrup", "quantity": "15 ml" }
+      ]
+    },
+    {
+      "name": "Mojito",
+      "glass": "Highball Glass",
+      "ingredients": [
+        { "name": "White Rum", "quantity": "50 ml" },
+        { "name": "Lime Juice", "quantity": "25 ml" },
+        { "name": "Simple Syrup", "quantity": "15 ml" },
+        { "name": "Mint Leaves", "quantity": "6 leaves" },
+        { "name": "Soda Water", "quantity": "to top" }
+      ]
+    },
+    {
+      "name": "Cosmopolitan",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Vodka", "quantity": "40 ml" },
+        { "name": "Triple Sec", "quantity": "15 ml" },
+        { "name": "Cranberry Juice", "quantity": "15 ml" },
+        { "name": "Lime Juice", "quantity": "10 ml" }
+      ]
+    },
+    {
+      "name": "Sidecar",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Cognac", "quantity": "50 ml" },
+        { "name": "Triple Sec", "quantity": "20 ml" },
+        { "name": "Lemon Juice", "quantity": "20 ml" }
+      ]
+    },
+    {
+      "name": "Whiskey Sour",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Bourbon", "quantity": "45 ml" },
+        { "name": "Lemon Juice", "quantity": "30 ml" },
+        { "name": "Simple Syrup", "quantity": "15 ml" }
+      ]
+    },
+    {
+      "name": "Sazerac",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Rye Whiskey", "quantity": "50 ml" },
+        { "name": "Absinthe", "quantity": "10 ml (rinse)" },
+        { "name": "Simple Syrup", "quantity": "5 ml" },
+        { "name": "Peychaud's Bitters", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "French 75",
+      "glass": "Champagne Flute",
+      "ingredients": [
+        { "name": "Gin", "quantity": "30 ml" },
+        { "name": "Lemon Juice", "quantity": "15 ml" },
+        { "name": "Simple Syrup", "quantity": "15 ml" },
+        { "name": "Champagne", "quantity": "60 ml (top up)" }
+      ]
+    },
+    {
+      "name": "Gimlet",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "60 ml" },
+        { "name": "Lime Juice", "quantity": "20 ml" },
+        { "name": "Simple Syrup", "quantity": "10 ml" }
+      ]
+    },
+    {
+      "name": "Aviation",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "45 ml" },
+        { "name": "Lemon Juice", "quantity": "15 ml" },
+        { "name": "Maraschino Liqueur", "quantity": "15 ml" },
+        { "name": "Crème de Violette", "quantity": "1 dash" }
+      ]
+    },
+    {
+      "name": "Bloody Mary",
+      "glass": "Highball Glass",
+      "ingredients": [
+        { "name": "Vodka", "quantity": "45 ml" },
+        { "name": "Tomato Juice", "quantity": "90 ml" },
+        { "name": "Lemon Juice", "quantity": "15 ml" },
+        { "name": "Worcestershire Sauce", "quantity": "2 dashes" },
+        { "name": "Tabasco", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "Mai Tai",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "White Rum", "quantity": "30 ml" },
+        { "name": "Orange Curaçao", "quantity": "15 ml" },
+        { "name": "Lime Juice", "quantity": "15 ml" },
+        { "name": "Orgeat Syrup", "quantity": "15 ml" },
+        { "name": "Dark Rum", "quantity": "30 ml (float)" }
+      ]
+    },
+    {
+      "name": "Pisco Sour",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Pisco", "quantity": "60 ml" },
+        { "name": "Lemon Juice", "quantity": "20 ml" },
+        { "name": "Simple Syrup", "quantity": "15 ml" },
+        { "name": "Angostura Bitters", "quantity": "1 dash" }
+      ]
+    },
+    {
+      "name": "Tom Collins",
+      "glass": "Collins Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "45 ml" },
+        { "name": "Lemon Juice", "quantity": "15 ml" },
+        { "name": "Simple Syrup", "quantity": "15 ml" },
+        { "name": "Soda Water", "quantity": "60 ml (top up)" }
+      ]
+    },
+    {
+      "name": "Mint Julep",
+      "glass": "Julep Cup",
+      "ingredients": [
+        { "name": "Bourbon", "quantity": "60 ml" },
+        { "name": "Simple Syrup", "quantity": "10 ml" },
+        { "name": "Mint Leaves", "quantity": "4-6 leaves" }
+      ]
+    },
+    {
+      "name": "Rob Roy",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Scotch Whisky", "quantity": "50 ml" },
+        { "name": "Sweet Vermouth", "quantity": "20 ml" },
+        { "name": "Angostura Bitters", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "Vesper",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "45 ml" },
+        { "name": "Vodka", "quantity": "15 ml" },
+        { "name": "Lillet Blanc", "quantity": "7.5 ml" }
+      ]
+    },
+    {
+      "name": "Rusty Nail",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Scotch Whisky", "quantity": "45 ml" },
+        { "name": "Drambuie", "quantity": "22.5 ml" }
+      ]
+    },
+    {
+      "name": "Singapore Sling",
+      "glass": "Highball Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "30 ml" },
+        { "name": "Cherry Liqueur", "quantity": "15 ml" },
+        { "name": "Cointreau", "quantity": "15 ml" },
+        { "name": "DOM Bénédictine", "quantity": "15 ml" },
+        { "name": "Pineapple Juice", "quantity": "120 ml" },
+        { "name": "Lime Juice", "quantity": "15 ml" },
+        { "name": "Angostura Bitters", "quantity": "1 dash" }
+      ]
+    },
+    {
+      "name": "Aperol Spritz",
+      "glass": "Wine Glass",
+      "ingredients": [
+        { "name": "Prosecco", "quantity": "60 ml" },
+        { "name": "Aperol", "quantity": "40 ml" },
+        { "name": "Soda Water", "quantity": "a splash" }
+      ]
+    },
+    {
+      "name": "Boulevardier",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Bourbon or Rye Whiskey", "quantity": "30 ml" },
+        { "name": "Campari", "quantity": "30 ml" },
+        { "name": "Sweet Vermouth", "quantity": "30 ml" }
+      ]
+    },
+    {
+      "name": "Caipirinha",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Cachaça", "quantity": "50 ml" },
+        { "name": "Lime (cut into wedges)", "quantity": "1 (approx 20 ml juice)" },
+        { "name": "Simple Syrup", "quantity": "15 ml" }
+      ]
+    },
+    {
+      "name": "Clover Club",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "45 ml" },
+        { "name": "Lemon Juice", "quantity": "15 ml" },
+        { "name": "Raspberry Syrup", "quantity": "15 ml" }
+      ]
+    },
+    {
+      "name": "Bellini",
+      "glass": "Champagne Flute",
+      "ingredients": [
+        { "name": "Prosecco", "quantity": "100 ml" },
+        { "name": "Peach Purée", "quantity": "20 ml" }
+      ]
+    },
+    {
+      "name": "Americano",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Campari", "quantity": "30 ml" },
+        { "name": "Sweet Vermouth", "quantity": "30 ml" },
+        { "name": "Soda Water", "quantity": "30 ml (top up)" }
+      ]
+    },
+    {
+      "name": "Ramos Gin Fizz",
+      "glass": "Collins Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "45 ml" },
+        { "name": "Lemon Juice", "quantity": "15 ml" },
+        { "name": "Lime Juice", "quantity": "15 ml" },
+        { "name": "Simple Syrup", "quantity": "30 ml" },
+        { "name": "Cream", "quantity": "60 ml" },
+        { "name": "Egg White", "quantity": "1" },
+        { "name": "Orange Flower Water", "quantity": "2 dashes" },
+        { "name": "Soda Water", "quantity": "60 ml (top up)" }
+      ]
+    },
+    {
+      "name": "Penicillin",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Scotch Whisky", "quantity": "45 ml" },
+        { "name": "Lemon Juice", "quantity": "20 ml" },
+        { "name": "Honey-Ginger Syrup", "quantity": "20 ml" },
+        { "name": "Islay Scotch", "quantity": "10 ml (float)" }
+      ]
+    },
+    {
+      "name": "Last Word",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "22.5 ml" },
+        { "name": "Green Chartreuse", "quantity": "22.5 ml" },
+        { "name": "Maraschino Liqueur", "quantity": "22.5 ml" },
+        { "name": "Lime Juice", "quantity": "22.5 ml" }
+      ]
+    },
+    {
+      "name": "Corpse Reviver #2",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "30 ml" },
+        { "name": "Cointreau", "quantity": "30 ml" },
+        { "name": "Lillet Blanc", "quantity": "30 ml" },
+        { "name": "Lemon Juice", "quantity": "30 ml" },
+        { "name": "Absinthe", "quantity": "1 dash" }
+      ]
+    },
+    {
+      "name": "Brandy Alexander",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Brandy", "quantity": "30 ml" },
+        { "name": "Dark Crème de Cacao", "quantity": "30 ml" },
+        { "name": "Cream", "quantity": "30 ml" }
+      ]
+    },
+    {
+      "name": "Gibson",
+      "glass": "Martini Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "60 ml" },
+        { "name": "Dry Vermouth", "quantity": "10 ml" },
+        { "name": "Cocktail Onion", "quantity": "1 (garnish)" }
+      ]
+    },
+    {
+      "name": "Blood and Sand",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Scotch Whisky", "quantity": "22.5 ml" },
+        { "name": "Sweet Vermouth", "quantity": "22.5 ml" },
+        { "name": "Cherry Heering", "quantity": "22.5 ml" },
+        { "name": "Orange Juice", "quantity": "22.5 ml" }
+      ]
+    },
+    {
+      "name": "Vieux Carré",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Rye Whiskey", "quantity": "30 ml" },
+        { "name": "Cognac", "quantity": "30 ml" },
+        { "name": "Sweet Vermouth", "quantity": "30 ml" },
+        { "name": "Bénédictine", "quantity": "10 ml" },
+        { "name": "Peychaud's Bitters", "quantity": "2 dashes" },
+        { "name": "Angostura Bitters", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "Cuba Libre",
+      "glass": "Highball Glass",
+      "ingredients": [
+        { "name": "White Rum", "quantity": "50 ml" },
+        { "name": "Lime Juice", "quantity": "15 ml" },
+        { "name": "Cola", "quantity": "100 ml" }
+      ]
+    },
+    {
+      "name": "Casino",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "45 ml" },
+        { "name": "Lemon Juice", "quantity": "15 ml" },
+        { "name": "Maraschino Liqueur", "quantity": "15 ml" },
+        { "name": "Orange Bitters", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "Bijou",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "30 ml" },
+        { "name": "Green Chartreuse", "quantity": "30 ml" },
+        { "name": "Sweet Vermouth", "quantity": "30 ml" },
+        { "name": "Orange Bitters", "quantity": "1 dash" }
+      ]
+    },
+    {
+      "name": "Martinez",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Old Tom Gin", "quantity": "45 ml" },
+        { "name": "Sweet Vermouth", "quantity": "45 ml" },
+        { "name": "Maraschino Liqueur", "quantity": "7.5 ml" },
+        { "name": "Orange Bitters", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "Irish Coffee",
+      "glass": "Coffee Mug",
+      "ingredients": [
+        { "name": "Irish Whiskey", "quantity": "45 ml" },
+        { "name": "Hot Coffee", "quantity": "90 ml" },
+        { "name": "Sugar Syrup", "quantity": "15 ml" },
+        { "name": "Fresh Cream", "quantity": "30 ml (top up)" }
+      ]
+    },
+    {
+      "name": "El Presidente",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "White Rum", "quantity": "45 ml" },
+        { "name": "Dry Vermouth", "quantity": "15 ml" },
+        { "name": "Orange Curaçao", "quantity": "15 ml" },
+        { "name": "Grenadine", "quantity": "7.5 ml" }
+      ]
+    },
+    {
+      "name": "Tuxedo",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "45 ml" },
+        { "name": "Dry Vermouth", "quantity": "15 ml" },
+        { "name": "Maraschino Liqueur", "quantity": "7.5 ml" },
+        { "name": "Orange Bitters", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "Pimm's Cup",
+      "glass": "Highball Glass",
+      "ingredients": [
+        { "name": "Pimm's No.1", "quantity": "50 ml" },
+        { "name": "Lemonade", "quantity": "100 ml" },
+        { "name": "Cucumber Slice", "quantity": "1 (garnish)" }
+      ]
+    },
+    {
+      "name": "Rum Old Fashioned",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Aged Rum", "quantity": "50 ml" },
+        { "name": "Demerara Syrup", "quantity": "5 ml" },
+        { "name": "Angostura Bitters", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "Planter's Punch",
+      "glass": "Highball Glass",
+      "ingredients": [
+        { "name": "Dark Rum", "quantity": "45 ml" },
+        { "name": "Lime Juice", "quantity": "15 ml" },
+        { "name": "Simple Syrup", "quantity": "15 ml" },
+        { "name": "Grenadine", "quantity": "15 ml" },
+        { "name": "Angostura Bitters", "quantity": "2 dashes" }
+      ]
+    },
+    {
+      "name": "Bramble",
+      "glass": "Old Fashioned Glass",
+      "ingredients": [
+        { "name": "Gin", "quantity": "45 ml" },
+        { "name": "Lemon Juice", "quantity": "15 ml" },
+        { "name": "Simple Syrup", "quantity": "15 ml" },
+        { "name": "Crème de Mûre", "quantity": "15 ml" }
+      ]
+    },
+    {
+      "name": "Between the Sheets",
+      "glass": "Coupe Glass",
+      "ingredients": [
+        { "name": "Cognac", "quantity": "30 ml" },
+        { "name": "Light Rum", "quantity": "30 ml" },
+        { "name": "Triple Sec", "quantity": "30 ml" },
+        { "name": "Lemon Juice", "quantity": "15 ml" }
+      ]
+    },
+    {
+      "name": "Mimosa",
+      "glass": "Champagne Flute",
+      "ingredients": [
+        { "name": "Champagne", "quantity": "60 ml" },
+        { "name": "Fresh Orange Juice", "quantity": "60 ml" }
+      ]
+    }
+  ]
+  
