@@ -269,6 +269,7 @@ async function  copyResultsToClipboard() {
     }
     navigator.clipboard.writeText(t);
     // alert("Copied the text: " + encodeURIComponent(t));
+    alert(window.innerHeight)
     if(( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 ) ){
 
         // window.open("whatsapp://send?text="+encodeURIComponent(t))
