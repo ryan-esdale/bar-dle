@@ -257,9 +257,9 @@ function swapSpecs() {
 }
 
 function copyResultsToClipboard() {
-    let t = `Bar-dle ${guesses.length}/?\n\n`;
+    let t = `Bar-dle ${guesses.length}/?\n\r\n\r`;
     for (let index = 0; index < guesses.length-1; index++) {
-        t = t + "🟨\n"
+        t = t + "🟨\n\r"
     }
     if (gameWin) {
         t = t + "🟩"
@@ -268,8 +268,8 @@ function copyResultsToClipboard() {
         t = t + "🟥"
     }
     navigator.clipboard.writeText(t);
-    // alert("Copied the text: " + t);
-    window.open("whatsapp://send?text="+encodeURI(t))
+    alert("Copied the text: " + encodeURIComponent(t));
+    window.open("whatsapp://send?text="+encodeURIComponent(t))
 }
 
 // Event listeners
