@@ -73,7 +73,7 @@ function setIngredientMode() {
 }
 
 // Initialize the game
-function initGame() {
+function initGame(random) {
     // Reset input, messages, and guessed ingredients
     document.getElementById('guess-input').disabled = false;
     document.getElementById('message').textContent = '';
@@ -83,8 +83,13 @@ function initGame() {
     gameWin = false;
 
     // Choose a cocktail (here using random selection)
-    // cocktailOfTheDay = selectRandomCocktail();
-    cocktailOfTheDay = selectDailyCocktail();
+    if (random) {
+
+        cocktailOfTheDay = selectRandomCocktail();
+    } else {
+
+        cocktailOfTheDay = selectDailyCocktail();
+    }
 
     // Reset revealed ingredients count:
     // In name mode, start by showing one hint.
@@ -304,7 +309,7 @@ document.getElementById('guess-input').addEventListener('keyup', (event) => {
     }
 });
 document.getElementById('give-up-button').addEventListener('click', giveUp);
-document.getElementById('refresh-game').addEventListener('click', initGame);
+document.getElementById('refresh-game').addEventListener('click', ()=>initGame(true));
 
 document.getElementById('name-mode-button').addEventListener('click', setNameMode);
 document.getElementById('ingredient-mode-button').addEventListener('click', setIngredientMode);
