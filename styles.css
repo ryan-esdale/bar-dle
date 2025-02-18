@@ -49,6 +49,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     width: 40%;
+    min-width: 300px;
     max-width: 500px;
     /* left:50%; */
     height: 200px;
@@ -69,14 +70,28 @@ button:hover {
     flex: 3;
 }
 
-#popup-confirmation {
+#popup button {
     flex: 1;
+    display: flex;
     width: 40%;
     border-color: #707070;
+    align-items: center;
+    justify-content: center;
 }
 
-#popup-confirmation:hover {
+#popup button:hover {
     background-color: #757575;
+}
+
+#share-results-button {
+    visibility: hidden;
+    background-color: #409040;
+    border-color: #19e819;
+}
+
+#share-results-button:hover {
+    border-color: #19e819;
+    background-color: #38c538;
 }
 
 #mode-description-details {
@@ -91,7 +106,7 @@ button:hover {
 
 
 #guess-area input {
-    width: 80%;
+    width: 70%;
     padding: 10px;
     font-size: 16px;
 }

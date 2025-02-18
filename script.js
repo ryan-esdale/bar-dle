@@ -7,7 +7,8 @@ let cocktails = [];
 let cocktailOfTheDay = undefined;
 let revealedIngredients = undefined;
 let gameMode = GAMEMODES.NAME;
-let guessedIngredients = []; // for ingredient mode
+let gameWin = false;
+let guesses = []; // for ingredient mode
 let incorrectGuesses = [];
 const ctcSpecs = '21stAmendmentCocktails.json'
 const ibaSpecs = 'iba-cocktails-web.json'
@@ -36,7 +37,7 @@ function loadCocktails(name) {
 }
 document.addEventListener('DOMContentLoaded', loadCocktails(currectSpec));
 
-function makePopup(title, text){
+function makePopup(title, text) {
     document.getElementById('popup-title').textContent = title
     document.getElementById('popup-body').textContent = text
     const cont = document.getElementById('popup-container');
@@ -77,8 +78,9 @@ function initGame() {
     document.getElementById('guess-input').disabled = false;
     document.getElementById('message').textContent = '';
     document.getElementById('drink-name').textContent = '';
-    guessedIngredients = [];
+    guesses = [];
     incorrectGuesses = [];
+    gameWin = false;
 
     // Choose a cocktail (here using random selection)
     cocktailOfTheDay = selectRandomCocktail();
@@ -133,10 +135,8 @@ function updateHints() {
         // show its details; otherwise show "???"
         cocktailOfTheDay.ingredients.forEach((ingredient, index) => {
             const ingredientEl = document.createElement('div');
-            console.log(ingredient)
-            console.log(guessedIngredients)
             // Check if this ingredient has been guessed or has been revealed
-            if (guessedIngredients.includes(ingredient.ingredient) || index < revealedIngredients) {
+            if (guesses.includes(ingredient.ingredient) || index < revealedIngredients) {
                 ingredientEl.textContent = `${ingredient.quantity} ${ingredient.unit} of ${ingredient.ingredient}`;
             } else {
                 ingredientEl.textContent = "???";
@@ -165,23 +165,27 @@ function guessDrink() {
 
     if (guess === cocktailOfTheDay.name.toLowerCase()) {
         // messageDiv.textContent = "Congratulations! You guessed the cocktail name correctly.";
-        makePopup("Congratulations!", `You were correct, this was the spec for a${['a','e','i','o','u'].includes(cocktailOfTheDay.name[0].toLowerCase())?'n':''} ${cocktailOfTheDay.name}`)
+        makePopup("Congratulations!", `You were correct, this was the spec for a${['a', 'e', 'i', 'o', 'u'].includes(cocktailOfTheDay.name[0].toLowerCase()) ? 'n' : ''} ${cocktailOfTheDay.name} in ${revealedIngredients} guess(es).`);
+        document.getElementById('share-results-button').style.visibility = 'visible';
+        gameWin = true;
         giveUp(); // reveal all details
     } else {
         messageDiv.textContent = "Incorrect guess. Try again!";
         incorrectGuesses.push(guess)
         // Reveal one more ingredient if available
-        if (revealedIngredients < cocktailOfTheDay.ingredients.length-1) {
+        if (revealedIngredients < cocktailOfTheDay.ingredients.length - 1) {
             revealedIngredients++;
-        } else if(revealedIngredients == cocktailOfTheDay.ingredients.length-1){
+        } else if (revealedIngredients == cocktailOfTheDay.ingredients.length - 1) {
             revealedIngredients++;
             makePopup("Last chance!", `That's all the ingredients, one guess remaining...`)
-        }else{
-            makePopup("Better luck next time", `This was the spec for a${['a','e','i','o','u'].includes(cocktailOfTheDay.name[0].toLowerCase())?'n':''} ${cocktailOfTheDay.name}`)
+        } else {
+            makePopup("Better luck next time", `This was the spec for a${['a', 'e', 'i', 'o', 'u'].includes(cocktailOfTheDay.name[0].toLowerCase()) ? 'n' : ''} ${cocktailOfTheDay.name}`);
+            document.getElementById('share-results-button').style.visibility = 'visible';
             giveUp();
         }
         updateHints();
     }
+    guesses.push(guess)
     guessInput.value = "";
 }
 
@@ -199,8 +203,8 @@ function guessIngredient() {
         if (ingredient.ingredient.toLowerCase() === guess || ingredient.ingredient.toLowerCase().includes(guess)) {
             found = true;
             // If not already guessed, add to guessedIngredients
-            if (!guessedIngredients.includes(ingredient.ingredient)) {
-                guessedIngredients.push(ingredient.ingredient);
+            if (!guesses.includes(ingredient.ingredient)) {
+                guesses.push(ingredient.ingredient);
             }
         }
     });
@@ -223,7 +227,7 @@ function guessIngredient() {
 
     // Check if the player has now guessed (or revealed) all ingredients
     const allRevealed = cocktailOfTheDay.ingredients.every((ingredient, index) => {
-        return guessedIngredients.includes(ingredient.ingredient.toLowerCase()) || index < revealedIngredients;
+        return guesses.includes(ingredient.ingredient.toLowerCase()) || index < revealedIngredients;
     });
     if (allRevealed) {
         messageDiv.textContent = "Congratulations! You've identified all the ingredients.";
@@ -252,12 +256,28 @@ function swapSpecs() {
     initGame();
 }
 
+function copyResultsToClipboard() {
+    let t = `Bar-dle ${guesses.length}/?\n\n`;
+    for (let index = 0; index < guesses.length-1; index++) {
+        t = t + "🟨\n"
+    }
+    if (gameWin) {
+        t = t + "🟩"
+    }
+    else {
+        t = t + "🟥"
+    }
+    navigator.clipboard.writeText(t);
+    // alert("Copied the text: " + t);
+    window.open("whatsapp://send?text="+t)
+}
+
 // Event listeners
 document.getElementById('submit-guess').addEventListener('click', makeGuess);
 document.getElementById('guess-input').addEventListener('keyup', (event) => {
     console.log(window.getComputedStyle(document.getElementById('popup-container')).getPropertyValue('visibility'))
     if (event.key === 'Enter') {
-        if(window.getComputedStyle(document.getElementById('popup-container')).getPropertyValue('visibility') == 'visible'){
+        if (window.getComputedStyle(document.getElementById('popup-container')).getPropertyValue('visibility') == 'visible') {
             document.getElementById('popup-confirmation').click();
         }
         document.getElementById('submit-guess').click();
@@ -272,5 +292,8 @@ document.getElementById('ingredient-mode-button').addEventListener('click', setI
 document.getElementById('switch-spec-list-button').addEventListener('click', swapSpecs);
 
 document.getElementById('popup-confirmation').addEventListener('click', (event) => {
+    document.getElementById('share-results-button').style.visibility = 'hidden';
     document.getElementById('popup-container').style.visibility = 'hidden';
 });
+
+document.getElementById('share-results-button').addEventListener('click', copyResultsToClipboard)
