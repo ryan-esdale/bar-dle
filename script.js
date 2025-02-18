@@ -1,7 +1,12 @@
+const GAMEMODES = {
+    NAME: 'name',
+    SPEC: 'spec'
+}
+
 let cocktails = [];
 let cocktailOfTheDay = undefined;
 let revealedIngredients = undefined;
-let gameMode = "ingredients"; // "name" or "ingredients"
+let gameMode = GAMEMODES.NAME;
 let guessedIngredients = []; // for ingredient mode
 let incorrectGuesses = [];
 const ctcSpecs = '21stAmendmentCocktails.json'
@@ -20,10 +25,25 @@ function loadCocktails(name) {
             cocktails = data;
             // Now that the cocktails are loaded, you can initialize your game
             initGame();
+            const t = document.getElementById('mode-description-details')
+            if (currectSpec === ctcSpecs) {
+                t.textContent = 'Drink recipies are formatted using CTC Specs'
+            } else if (currectSpec === ibaSpecs) {
+                t.textContent = 'Drink recipies are formatted using IBA Specs'
+            }
         })
         .catch(error => console.error('Error loading cocktails:', error));
 }
 document.addEventListener('DOMContentLoaded', loadCocktails(currectSpec));
+
+function makePopup(title, text){
+    document.getElementById('popup-title').textContent = title
+    document.getElementById('popup-body').textContent = text
+    const cont = document.getElementById('popup-container');
+    cont.style.visibility = 'visible';
+    //Might be unecessary, some weird stuff happening
+    cont.style.height = '100%';
+}
 
 // Function to select the cocktail of the day based on the day of the year
 function selectDailyCocktail() {
@@ -42,12 +62,12 @@ function selectRandomCocktail() {
 
 // Set game mode functions
 function setNameMode() {
-    gameMode = "name";
+    gameMode = GAMEMODES.NAME;
     initGame();
 }
 
 function setIngredientMode() {
-    gameMode = "ingredients";
+    gameMode = GAMEMODES.SPEC;
     initGame();
 }
 
@@ -66,11 +86,14 @@ function initGame() {
     // Reset revealed ingredients count:
     // In name mode, start by showing one hint.
     // In ingredient mode, start with zero revealed ingredients.
-    revealedIngredients = (gameMode === "name") ? 1 : 0;
+    revealedIngredients = (gameMode === GAMEMODES.NAME) ? 1 : 0;
 
     // If in ingredient mode, show the cocktail name immediately.
-    if (gameMode === "ingredients") {
+    if (gameMode === GAMEMODES.SPEC) {
         document.getElementById('drink-name').textContent = cocktailOfTheDay.name;
+    } else if (gameMode === GAMEMODES.NAME) {
+        document.getElementById('mode-description').textContent =
+            `Guess the name of this cocktail before all ingredients are revealed!\n(Each incorrect guess will reveal one additional ingredient.)`
     }
     updateHints();
 }
@@ -92,18 +115,19 @@ function updateHints() {
     })
 
     // In name mode, show the glass and revealed ingredients.
-    if (gameMode === "name") {
-        const serveEl = document.createElement('div');
-        serveEl.id = 'serve-text';
-        serveEl.textContent = `Served in: ${cocktailOfTheDay.glass}`;
-        hintsDiv.appendChild(serveEl);
+    if (gameMode === GAMEMODES.NAME) {
+
+        // const serveEl = document.createElement('div');
+        // serveEl.id = 'serve-text';
+        // serveEl.textContent = `Served in: ${cocktailOfTheDay.glass}`;
+        // hintsDiv.appendChild(serveEl);
 
         cocktailOfTheDay.ingredients.slice(0, revealedIngredients).forEach(ingredient => {
             const ingredientEl = document.createElement('div');
             ingredientEl.textContent = `${ingredient.quantity} ${ingredient.unit} of ${ingredient.ingredient}`;
             hintsDiv.appendChild(ingredientEl);
         });
-    } else if (gameMode === "ingredients") {
+    } else if (gameMode === GAMEMODES.SPEC) {
         // In ingredient mode, show the cocktail name (already displayed) and
         // list each ingredient. For each ingredient, if it has been guessed or its index is less than revealedIngredients,
         // show its details; otherwise show "???"
@@ -124,9 +148,9 @@ function updateHints() {
 
 // Called when the user clicks the guess button or hits Enter
 function makeGuess() {
-    if (gameMode === "name") {
+    if (gameMode === GAMEMODES.NAME) {
         guessDrink();
-    } else if (gameMode === "ingredients") {
+    } else if (gameMode === GAMEMODES.SPEC) {
         guessIngredient();
     }
 }
@@ -140,18 +164,23 @@ function guessDrink() {
     if (!guess) return;
 
     if (guess === cocktailOfTheDay.name.toLowerCase()) {
-        messageDiv.textContent = "Congratulations! You guessed the cocktail name correctly.";
+        // messageDiv.textContent = "Congratulations! You guessed the cocktail name correctly.";
+        makePopup("Congratulations!", `You were correct, this was the spec for a${['a','e','i','o','u'].includes(cocktailOfTheDay.name[0].toLowerCase())?'n':''} ${cocktailOfTheDay.name}`)
         giveUp(); // reveal all details
     } else {
         messageDiv.textContent = "Incorrect guess. Try again!";
         incorrectGuesses.push(guess)
         // Reveal one more ingredient if available
-        if (revealedIngredients < cocktailOfTheDay.ingredients.length) {
+        if (revealedIngredients < cocktailOfTheDay.ingredients.length-1) {
             revealedIngredients++;
-            updateHints();
-        } else {
-            messageDiv.textContent += " You've seen all the hints.";
+        } else if(revealedIngredients == cocktailOfTheDay.ingredients.length-1){
+            revealedIngredients++;
+            makePopup("Last chance!", `That's all the ingredients, one guess remaining...`)
+        }else{
+            makePopup("Better luck next time", `This was the spec for a${['a','e','i','o','u'].includes(cocktailOfTheDay.name[0].toLowerCase())?'n':''} ${cocktailOfTheDay.name}`)
+            giveUp();
         }
+        updateHints();
     }
     guessInput.value = "";
 }
@@ -219,7 +248,6 @@ function swapSpecs() {
         currectSpec = ctcSpecs;
         b.textContent = 'Swap to IBA Specs'
     }
-    console.log(currectSpec)
     loadCocktails(currectSpec);
     initGame();
 }
@@ -227,7 +255,11 @@ function swapSpecs() {
 // Event listeners
 document.getElementById('submit-guess').addEventListener('click', makeGuess);
 document.getElementById('guess-input').addEventListener('keyup', (event) => {
+    console.log(window.getComputedStyle(document.getElementById('popup-container')).getPropertyValue('visibility'))
     if (event.key === 'Enter') {
+        if(window.getComputedStyle(document.getElementById('popup-container')).getPropertyValue('visibility') == 'visible'){
+            document.getElementById('popup-confirmation').click();
+        }
         document.getElementById('submit-guess').click();
     }
 });
@@ -238,3 +270,7 @@ document.getElementById('name-mode-button').addEventListener('click', setNameMod
 document.getElementById('ingredient-mode-button').addEventListener('click', setIngredientMode);
 
 document.getElementById('switch-spec-list-button').addEventListener('click', swapSpecs);
+
+document.getElementById('popup-confirmation').addEventListener('click', (event) => {
+    document.getElementById('popup-container').style.visibility = 'hidden';
+});

@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cocktail Wordle</title>
-  <!-- Link to your CSS file -->
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktail Wordle</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <div id="game-container">
-    <h1>Cocktail Wordle</h1>
-    <button id="name-mode-button">Name Guessing</button>
-    <button id="ingredient-mode-button">Spec Guessing</button>
-    <button id="switch-spec-list-button">Swap to CTC Specs</button>
-    <!-- <div id="glassware">
-      <img id="glassware-image" src="" alt="Glassware" />
-    </div> -->
-    <div id="hints">
-      <!-- Hints will be dynamically added here -->
-    </div>
-    <div id="mistakes">
+    <div id="game-container">
+        <h1>Bar-dle</h1>
+        <div id="mode-description">
+        </div>
+        <div id="mode-description-details">
+        </div>
+        <div id="hints">
+            <!-- Hints will be dynamically added here -->
+        </div>
+        <div id="mistakes">
+
+        </div>
+        <div id="guess-area">
+            <input type="text" id="guess-input" placeholder="Guess the cocktail..." />
+            <button id="submit-guess" style="visibility: hidden;">Submit</button>
+        </div>
+        <div id="message"></div>
+        <div id="drink-name"></div>
+        <button id="give-up-button">Give Up</button>
+        <button id="refresh-game">Random Drink</button>
+        <div id="footer-buttons">
+            <button id="name-mode-button">Name Guessing</button>
+            <button id="ingredient-mode-button">Spec Guessing</button>
+            <button id="switch-spec-list-button">Swap to CTC Specs</button>
+        </div>
+
 
     </div>
-    <div id="guess-area">
-      <input type="text" id="guess-input" placeholder="Guess the cocktail..." />
-      <button id="submit-guess">Submit</button>
-    </div>
-    <button id="give-up-button">Give Up</button>
-    <div id="message"></div>
-    <div id="drink-name"></div>
-    <button id="refresh-game">Random Drink</button>
-  </div>
-  <!-- Link to your JavaScript file -->
-  <script src="script.js"></script>
+
+
+
 </body>
+<div id="popup-container">
+    <div id="popup">
+        <div id="popup-title">
+            TEST TEXT!
+        </div>
+        <div id="popup-body">
+            Stuff here
+        </div>
+        <button id="popup-confirmation">Okay</button>
+    </div>
+</div>
+
+
+<!-- Link to your JavaScript file -->
+<script src="script.js"></script>
+
 </html>
