@@ -276,7 +276,7 @@ async function copyResultsToClipboard() {
     // window.open("whatsapp://send?text="+encodeURIComponent(t))
     if (navigator.share) {
         try {
-            await navigator.share(shareData);
+            await navigator.share(t);
             console.log('Content shared successfully');
         } catch (err) {
             console.error('Error sharing content:', err);
