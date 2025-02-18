@@ -269,7 +269,7 @@ function copyResultsToClipboard() {
     }
     navigator.clipboard.writeText(t);
     // alert("Copied the text: " + t);
-    window.open("whatsapp://send?text="+t)
+    window.open("whatsapp://send?text="+encodeURI(t))
 }
 
 // Event listeners
