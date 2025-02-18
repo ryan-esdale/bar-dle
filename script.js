@@ -256,7 +256,7 @@ function swapSpecs() {
     initGame();
 }
 
-function copyResultsToClipboard() {
+async function  copyResultsToClipboard() {
     let t = `Bar-dle ${guesses.length}/?\n\r\n\r`;
     for (let index = 0; index < guesses.length-1; index++) {
         t = t + "🟨\n\r"
@@ -268,8 +268,24 @@ function copyResultsToClipboard() {
         t = t + "🟥"
     }
     navigator.clipboard.writeText(t);
-    alert("Copied the text: " + encodeURIComponent(t));
-    window.open("whatsapp://send?text="+encodeURIComponent(t))
+    // alert("Copied the text: " + encodeURIComponent(t));
+    if(( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 ) ){
+
+        // window.open("whatsapp://send?text="+encodeURIComponent(t))
+        if (navigator.share) {
+            try {
+              await navigator.share(shareData);
+              console.log('Content shared successfully');
+            } catch (err) {
+              console.error('Error sharing content:', err);
+            }
+          } else {
+            // Fallback for browsers that do not support the Web Share API
+            alert('Sharing is not supported on this device. Please copy the link manually.');
+          }
+    }else{
+        window.open(`https://api.whatsapp.com:/send?text=${encodeURIComponent(t)}`);
+    }
 }
 
 // Event listeners
