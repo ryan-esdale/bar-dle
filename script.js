@@ -276,7 +276,7 @@ async function copyResultsToClipboard() {
     // window.open("whatsapp://send?text="+encodeURIComponent(t))
     if (navigator.share) {
         try {
-            alert("Sharing content")
+            // alert("Sharing content")
             await navigator.share({ url: 'https://ryan-esdale.github.io/bar-dle/', text: t, title: 'Today\'s Bar-dle score!' });
             console.log('Content shared successfully');
         } catch (err) {
