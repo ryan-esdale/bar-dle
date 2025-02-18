@@ -83,7 +83,8 @@ function initGame() {
     gameWin = false;
 
     // Choose a cocktail (here using random selection)
-    cocktailOfTheDay = selectRandomCocktail();
+    // cocktailOfTheDay = selectRandomCocktail();
+    cocktailOfTheDay = selectDailyCocktail();
 
     // Reset revealed ingredients count:
     // In name mode, start by showing one hint.
