@@ -290,7 +290,8 @@ async function copyResultsToClipboard() {
         }
     } else {
         // Fallback for browsers that do not support the Web Share API
-        alert('Sharing is not supported on this device. Please copy the link manually.');
+        alert('Sharing is not supported on this device. Results copied to clipboard.');
+        navigator.clipboard.writeText(t);
     }
     // }else{
     // window.open(`https://api.whatsapp.com:/send?text=${encodeURIComponent(t)}`);
