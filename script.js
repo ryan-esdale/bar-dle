@@ -10,9 +10,10 @@ let gameMode = GAMEMODES.NAME;
 let gameWin = false;
 let guesses = []; // for ingredient mode
 let incorrectGuesses = [];
-const ctcSpecs = '21stAmendmentCocktails.json'
-const ibaSpecs = 'iba-cocktails-web.json'
-let currectSpec = ibaSpecs
+const ctcSpecs = '21stAmendmentCocktails.json';
+const ibaSpecs = 'iba-cocktails-web.json';
+const randSeed = 32198732154983;
+let currectSpec = ibaSpecs;
 
 function loadCocktails(name) {
     fetch(name)
@@ -37,13 +38,41 @@ function loadCocktails(name) {
 }
 document.addEventListener('DOMContentLoaded', loadCocktails(currectSpec));
 
-function makePopup(title, text) {
+function makePopup(title, text, showShareButton) {
     document.getElementById('popup-title').textContent = title
     document.getElementById('popup-body').textContent = text
-    const cont = document.getElementById('popup-container');
-    cont.style.visibility = 'visible';
-    //Might be unecessary, some weird stuff happening
-    cont.style.height = '100%';
+    document.getElementById('popup-container').style.visibility = 'visible';
+    document.getElementById('share-results-button').style.visibility = showShareButton ? 'visible' : 'hidden';
+}
+
+// Modified Fisher-Yates shuffle from Mike Bostok: https://bost.ocks.org/mike/shuffle/
+function shuffle(array) {
+    var m = array.length, t, i;
+
+    // While there remain elements to shuffle…
+    while (m) {
+
+        // Pick a remaining element…
+        i = Math.floor(random(randSeed) * m--);
+
+        // And swap it with the current element.
+        t = array[m];
+        array[m] = array[i];
+        array[i] = t;
+    }
+
+    return array;
+}
+
+// Random based on seed: https://decode.sh/seeded-random-number-generator-in-js/
+function random(seed) {
+    var m = 2 ** 35 - 31;
+    var a = 185852;
+    var s = seed % m;
+
+    return function () {
+        return (s = (s * a) % m) / m;
+    };
 }
 
 // Function to select the cocktail of the day based on the day of the year
@@ -53,7 +82,8 @@ function selectDailyCocktail() {
     const diff = today - start;
     const oneDay = 1000 * 60 * 60 * 24;
     const dayOfYear = Math.floor(diff / oneDay);
-    return cocktails[dayOfYear % cocktails.length];
+    const shuffledList = shuffle(cocktails)
+    return shuffledList[dayOfYear % cocktails.length];
 }
 
 function selectRandomCocktail() {
@@ -81,6 +111,7 @@ function initGame(random) {
     guesses = [];
     incorrectGuesses = [];
     gameWin = false;
+    document.getElementById('hints').innerHTML = ''; // Clear previous hints
 
     // Choose a cocktail (here using random selection)
     if (random) {
@@ -109,7 +140,6 @@ function initGame(random) {
 // Update the hints display based on the game mode
 function updateHints() {
     const hintsDiv = document.getElementById('hints');
-    hintsDiv.innerHTML = ''; // Clear previous hints
 
     const mistakesDiv = document.getElementById('mistakes');
     mistakesDiv.innerHTML = '';
@@ -122,19 +152,16 @@ function updateHints() {
         mistakesDiv.appendChild(guessEl)
     })
 
-    // In name mode, show the glass and revealed ingredients.
+    // In name mode, show the revealed ingredients.
     if (gameMode === GAMEMODES.NAME) {
-
-        // const serveEl = document.createElement('div');
-        // serveEl.id = 'serve-text';
-        // serveEl.textContent = `Served in: ${cocktailOfTheDay.glass}`;
-        // hintsDiv.appendChild(serveEl);
-
-        cocktailOfTheDay.ingredients.slice(0, revealedIngredients).forEach(ingredient => {
-            const ingredientEl = document.createElement('div');
-            ingredientEl.textContent = `${ingredient.quantity} ${ingredient.unit} of ${ingredient.ingredient}`;
-            hintsDiv.appendChild(ingredientEl);
-        });
+        if (revealedIngredients == cocktailOfTheDay.ingredients.length)
+            return
+        const ingredient = cocktailOfTheDay.ingredients[revealedIngredients];
+        const ingredientEl = document.createElement('div');
+        ingredientEl.id = 'hint-text'
+        ingredientEl.textContent = `${ingredient.quantity} ${ingredient.unit} of ${ingredient.ingredient}`;
+        hintsDiv.appendChild(ingredientEl);
+        // });
     } else if (gameMode === GAMEMODES.SPEC) {
         // In ingredient mode, show the cocktail name (already displayed) and
         // list each ingredient. For each ingredient, if it has been guessed or its index is less than revealedIngredients,
@@ -171,8 +198,8 @@ function guessDrink() {
 
     if (guess === cocktailOfTheDay.name.toLowerCase()) {
         // messageDiv.textContent = "Congratulations! You guessed the cocktail name correctly.";
-        makePopup("Congratulations!", `You were correct, this was the spec for a${['a', 'e', 'i', 'o', 'u'].includes(cocktailOfTheDay.name[0].toLowerCase()) ? 'n' : ''} ${cocktailOfTheDay.name} in ${revealedIngredients} guess(es).`);
-        document.getElementById('share-results-button').style.visibility = 'visible';
+        makePopup("Congratulations!", `This was the for a${['a', 'e', 'i', 'o', 'u'].includes(cocktailOfTheDay.name[0].toLowerCase()) ? 'n' : ''} ${cocktailOfTheDay.name}.
+        \r\nYou got it in ${revealedIngredients} guess${revealedIngredients == 1 ? '' : 'es'}.`, true);
         gameWin = true;
         giveUp(); // reveal all details
     } else {
@@ -185,8 +212,7 @@ function guessDrink() {
             revealedIngredients++;
             makePopup("Last chance!", `That's all the ingredients, one guess remaining...`)
         } else {
-            makePopup("Better luck next time", `This was the spec for a${['a', 'e', 'i', 'o', 'u'].includes(cocktailOfTheDay.name[0].toLowerCase()) ? 'n' : ''} ${cocktailOfTheDay.name}`);
-            document.getElementById('share-results-button').style.visibility = 'visible';
+            makePopup("Better luck next time", `This was the spec for a${['a', 'e', 'i', 'o', 'u'].includes(cocktailOfTheDay.name[0].toLowerCase()) ? 'n' : ''} ${cocktailOfTheDay.name}`, true);
             giveUp();
         }
         updateHints();
@@ -263,28 +289,13 @@ function swapSpecs() {
 }
 
 async function copyResultsToClipboard() {
-    let t = `Bar-dle ${guesses.length}/?\n\r\n\r`;
-    for (let index = 0; index < guesses.length - 1; index++) {
-        t = t + "🟨\n\r"
-    }
-    if (gameWin) {
-        t = t + "🟩"
-    }
-    else {
-        t = t + "🟥"
-    }
-    // navigator.clipboard.writeText(t);
-    // alert("Copied the text: " + encodeURIComponent(t));
-    // alert(window.innerHeight)
-    // alert(window.innerHeight)
-    // if(( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 ) ){
+    let t = `Bar-dle ${guesses.length}/?\n`;
+    Array(guesses.length - 1).fill(1).forEach(() => t = t + "🟨\n")
+    t = t + (gameWin ? "🟩" : "🟥")
 
-    // window.open("whatsapp://send?text="+encodeURIComponent(t))
     if (navigator.share) {
         try {
-            // alert("Sharing content")
             await navigator.share({ url: 'https://ryan-esdale.github.io/bar-dle/', text: t, title: 'Today\'s Bar-dle score!' });
-            console.log('Content shared successfully');
         } catch (err) {
             console.error('Error sharing content:', err);
         }
@@ -293,9 +304,6 @@ async function copyResultsToClipboard() {
         alert('Sharing is not supported on this device. Results copied to clipboard.');
         navigator.clipboard.writeText(t);
     }
-    // }else{
-    // window.open(`https://api.whatsapp.com:/send?text=${encodeURIComponent(t)}`);
-    // }
 }
 
 // Event listeners
@@ -310,7 +318,7 @@ document.getElementById('guess-input').addEventListener('keyup', (event) => {
     }
 });
 document.getElementById('give-up-button').addEventListener('click', giveUp);
-document.getElementById('refresh-game').addEventListener('click', ()=>initGame(true));
+document.getElementById('refresh-game').addEventListener('click', () => initGame(true));
 
 document.getElementById('name-mode-button').addEventListener('click', setNameMode);
 document.getElementById('ingredient-mode-button').addEventListener('click', setIngredientMode);
@@ -321,5 +329,4 @@ document.getElementById('popup-confirmation').addEventListener('click', (event) 
     document.getElementById('share-results-button').style.visibility = 'hidden';
     document.getElementById('popup-container').style.visibility = 'hidden';
 });
-
 document.getElementById('share-results-button').addEventListener('click', copyResultsToClipboard)

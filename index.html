@@ -5,23 +5,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cocktail Wordle</title>
-    <!-- Link to your CSS file -->
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <div id="view-container">
         <div id="game-container">
-            <h1>Bar-dle</h1>
+            <div id="game-title">
+                Bar-dle
+            </div>
             <div id="mode-description">
             </div>
             <div id="mode-description-details">
             </div>
             <div id="hints">
-                <!-- Hints will be dynamically added here -->
             </div>
-            <div id="mistakes">
-
+            <div id="mistakes">=
             </div>
             <div id="guess-area">
                 <input type="text" id="guess-input" placeholder="Guess the cocktail..." />
@@ -36,18 +35,13 @@
                 <button id="ingredient-mode-button">Spec Guessing</button>
                 <button id="switch-spec-list-button">Swap to CTC Specs</button>
             </div>
-
-
+            <p><a href="mailto:simplestockprep@gmail.com">Any issues/comments? Send me an email</a></p>
         </div>
 
         <div id="popup-container">
             <div id="popup">
-                <div id="popup-title">
-                    TEST TEXT!
-                </div>
-                <div id="popup-body">
-                    Stuff here
-                </div>
+                <div id="popup-title">TEST TEXT!</div>
+                <div id="popup-body">Stuff here</div>
                 <button id="share-results-button">Share
                     <svg id="Footer-module_shareIcon__wOwOt" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         height="20" viewBox="0 0 24 24" width="28" class="game-icon" data-testid="icon-share">
@@ -61,10 +55,6 @@
         </div>
     </div>
 </body>
-
-
-
-<!-- Link to your JavaScript file -->
 <script src="script.js"></script>
 
 </html>
