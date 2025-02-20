@@ -5,7 +5,8 @@ const GAMEMODES = {
 
 let cocktails = [];
 let cocktailOfTheDay = undefined;
-let revealedIngredients = undefined;
+let revealedIngredients = [];
+let revealedIngredientCount = 0;
 let gameMode = GAMEMODES.NAME;
 let gameWin = false;
 let guesses = []; // for ingredient mode
@@ -109,10 +110,11 @@ function initGame(random) {
     document.getElementById('message').textContent = '';
     document.getElementById('drink-name').textContent = '';
     document.getElementById('hints').innerHTML = ''; // Clear previous hints
+    document.getElementById('drink-name').style.display = 'none';
     guesses = [];
     incorrectGuesses = [];
+    revealedIngredients = [];
     gameWin = false;
-
     // Choose a cocktail (here using random selection)
     if (random) {
 
@@ -125,7 +127,7 @@ function initGame(random) {
     // Reset revealed ingredients count:
     // In name mode, start by showing one hint.
     // In ingredient mode, start with zero revealed ingredients.
-    revealedIngredients = (gameMode === GAMEMODES.NAME) ? 1 : 0;
+    revealedIngredientCount = (gameMode === GAMEMODES.NAME) ? 1 : 0;
 
     // If in ingredient mode, show the cocktail name immediately.
     if (gameMode === GAMEMODES.SPEC) {
@@ -154,18 +156,22 @@ function updateHints() {
 
     // In name mode, show the revealed ingredients.
     if (gameMode === GAMEMODES.NAME) {
-        if (revealedIngredients > cocktailOfTheDay.ingredients.length)
-            return
-        const ingredient = cocktailOfTheDay.ingredients[revealedIngredients - 1];
-        if (ingredient == cocktailOfTheDay.ingredients[cocktailOfTheDay.ingredients.length - 1] && (!revealedIngredients == cocktailOfTheDay.ingredients.length))
-            return
-        console.log(ingredient)
-        console.log(cocktailOfTheDay.ingredients.length)
-        console.log(cocktailOfTheDay.ingredients[cocktailOfTheDay.ingredients.length - 1])
-        const ingredientEl = document.createElement('div');
-        ingredientEl.id = 'hint-text'
-        ingredientEl.textContent = `${ingredient.quantity} ${ingredient.unit} of ${ingredient.ingredient}`;
-        hintsDiv.appendChild(ingredientEl);
+        // if (revealedIngredientCount > cocktailOfTheDay.ingredients.length)
+        //     return
+        // const ingredient = cocktailOfTheDay.ingredients[revealedIngredientCount - 1];
+        // if (ingredient == cocktailOfTheDay.ingredients[cocktailOfTheDay.ingredients.length - 1] && (!revealedIngredientCount == cocktailOfTheDay.ingredients.length))
+        //     return
+        console.log(typeof (revealedIngredients))
+        cocktailOfTheDay.ingredients.forEach((ingredient, index) => {
+            if (index >= revealedIngredientCount || revealedIngredients.includes(ingredient))
+                return
+
+            const ingredientEl = document.createElement('div');
+            ingredientEl.id = 'hint-text'
+            ingredientEl.textContent = `${ingredient.quantity} ${ingredient.unit} of ${ingredient.ingredient}`;
+            hintsDiv.appendChild(ingredientEl);
+            revealedIngredients.push(ingredient)
+        })
         // });
     } else if (gameMode === GAMEMODES.SPEC) {
         // In ingredient mode, show the cocktail name (already displayed) and
@@ -203,23 +209,23 @@ function guessDrink() {
 
     if (guess === cocktailOfTheDay.name.toLowerCase()) {
         // messageDiv.textContent = "Congratulations! You guessed the cocktail name correctly.";
-        makePopup("Congratulations!", `This was the for a${['a', 'e', 'i', 'o', 'u'].includes(cocktailOfTheDay.name[0].toLowerCase()) ? 'n' : ''} ${cocktailOfTheDay.name}.
-        \r\nYou got it in ${revealedIngredients} guess${revealedIngredients == 1 ? '' : 'es'}.`, true);
+        makePopup("Congratulations!", `This was the spec for a${['a', 'e', 'i', 'o', 'u'].includes(cocktailOfTheDay.name[0].toLowerCase()) ? 'n' : ''} ${cocktailOfTheDay.name}.
+        \r\nYou got it in ${revealedIngredientCount} guess${revealedIngredientCount == 1 ? '' : 'es'}.`, true);
         gameWin = true;
         giveUp(); // reveal all details
     } else {
         messageDiv.textContent = "Incorrect guess. Try again!";
         incorrectGuesses.push(guess)
         // Reveal one more ingredient if available
-        if (revealedIngredients < cocktailOfTheDay.ingredients.length - 1) {
+        if (revealedIngredientCount < cocktailOfTheDay.ingredients.length - 1) {
             //Pulled out the ++
-        } else if (revealedIngredients == cocktailOfTheDay.ingredients.length - 1) {
+        } else if (revealedIngredientCount == cocktailOfTheDay.ingredients.length - 1) {
             makePopup("Last chance!", `That's all the ingredients, one guess remaining...`)
         } else {
             makePopup("Better luck next time", `This was the spec for a${['a', 'e', 'i', 'o', 'u'].includes(cocktailOfTheDay.name[0].toLowerCase()) ? 'n' : ''} ${cocktailOfTheDay.name}`, true);
             giveUp();
         }
-        revealedIngredients++;
+        revealedIngredientCount++;
         updateHints();
     }
     guesses.push(guess)
@@ -252,7 +258,7 @@ function guessIngredient() {
         messageDiv.textContent = "Incorrect ingredient. Try again!";
         // On a failed guess, reveal one more ingredient (if not already all revealed)
         incorrectGuesses.push(guess)
-        if (revealedIngredients < cocktailOfTheDay.ingredients.length) {
+        if (revealedIngredientCount < cocktailOfTheDay.ingredients.length) {
             // revealedIngredients++;
         } else {
             messageDiv.textContent += " You've seen all the hints.";
@@ -264,7 +270,7 @@ function guessIngredient() {
 
     // Check if the player has now guessed (or revealed) all ingredients
     const allRevealed = cocktailOfTheDay.ingredients.every((ingredient, index) => {
-        return guesses.includes(ingredient.ingredient.toLowerCase()) || index < revealedIngredients;
+        return guesses.includes(ingredient.ingredient.toLowerCase()) || index < revealedIngredientCount;
     });
     if (allRevealed) {
         messageDiv.textContent = "Congratulations! You've identified all the ingredients.";
@@ -276,7 +282,8 @@ function guessIngredient() {
 function giveUp() {
     document.getElementById('guess-input').disabled = true;
     document.getElementById('drink-name').textContent = cocktailOfTheDay.name;
-    revealedIngredients = cocktailOfTheDay.ingredients.length + 1;
+    document.getElementById('drink-name').style.display = 'block';
+    revealedIngredientCount = cocktailOfTheDay.ingredients.length + 1;
     updateHints();
 }
 

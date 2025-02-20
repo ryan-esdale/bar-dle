@@ -134,6 +134,18 @@ button:hover {
     font-size: 12px;
 }
 
+#drink-name {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    animation-duration: 1s;
+    animation-name: highlight-pop;
+    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    display: none;
+}
+
 #hints {
     display: flex;
     flex-direction: column;
