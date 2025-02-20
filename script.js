@@ -283,6 +283,7 @@ function giveUp() {
     document.getElementById('guess-input').disabled = true;
     document.getElementById('drink-name').textContent = cocktailOfTheDay.name;
     document.getElementById('drink-name').style.display = 'block';
+    document.getElementById('drink-name').scrollIntoView();
     revealedIngredientCount = cocktailOfTheDay.ingredients.length + 1;
     updateHints();
 }
