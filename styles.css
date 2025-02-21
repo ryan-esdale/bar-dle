@@ -202,9 +202,16 @@ button:hover {
 
 #footer-buttons {
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 #footer-buttons button {
     /* margin: 5px 7.5px; */
     font-size: 12px;
+}
+
+#name-mode-button {
+    visibility: collapse;
 }

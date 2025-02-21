@@ -100,11 +100,15 @@ function selectCocktailFromURL() {
 // Set game mode functions
 function setNameMode() {
     gameMode = GAMEMODES.NAME;
+    document.getElementById('name-mode-button').style.visibility = 'collapse'
+    document.getElementById('ingredient-mode-button').style.visibility = 'visible'
     initGame();
 }
 
 function setIngredientMode() {
     gameMode = GAMEMODES.SPEC;
+    document.getElementById('name-mode-button').style.visibility = 'visible'
+    document.getElementById('ingredient-mode-button').style.visibility = 'collapse';
     initGame();
 }
 
