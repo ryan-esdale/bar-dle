@@ -100,7 +100,7 @@ function selectDailyCocktail() {
     const diff = today - start;
     const oneDay = 1000 * 60 * 60 * 24;
     const dayOfYear = Math.floor(diff / oneDay);
-    return shuffledList[dayOfYear%cocktails.length]
+    return cocktails[dayOfYear%cocktails.length]
 }
 
 function selectRandomCocktail() {
@@ -336,7 +336,7 @@ async function copyResultsToClipboard() {
         console.log(selectDailyCocktail())
         console.log(selectDailyCocktail())
         console.log(selectDailyCocktail())
-        const id = cocktails.findIndex((v)=>v.name == cocktailOfTheDay.name)
+        const id = shuffledList.findIndex((v)=>v.name == cocktailOfTheDay.name)
         urlStr = urlStr+'?id='+(id+1)
     }
 
