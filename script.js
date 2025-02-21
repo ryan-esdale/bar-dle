@@ -4,6 +4,7 @@ const GAMEMODES = {
 }
 
 let cocktails = [];
+let shuffledList = [];
 let cocktailOfTheDay = undefined;
 let revealedIngredients = [];
 let revealedIngredientCount = 0;
@@ -15,6 +16,22 @@ const ctcSpecs = '21stAmendmentCocktails.json';
 const ibaSpecs = 'iba-cocktails-web.json';
 const randSeed = 32198732154983;
 let currectSpec = ibaSpecs;
+
+
+function loadAndShuffle(){
+    fetch(ctcSpecs)
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then(data => {
+        shuffledList = shuffle(data);
+    })
+    .catch(error => console.error('Error loading cocktails:', error));
+}
+document.addEventListener('DOMContentLoaded', loadAndShuffle());
 
 function loadCocktails(name) {
     fetch(name)
@@ -83,8 +100,7 @@ function selectDailyCocktail() {
     const diff = today - start;
     const oneDay = 1000 * 60 * 60 * 24;
     const dayOfYear = Math.floor(diff / oneDay);
-    const shuffledList = shuffle(cocktails)
-    return shuffledList[dayOfYear % cocktails.length];
+    return shuffledList[dayOfYear%cocktails.length]
 }
 
 function selectRandomCocktail() {
@@ -317,6 +333,9 @@ async function copyResultsToClipboard() {
 
     let urlStr = 'https://ryan-esdale.github.io/bar-dle/';
     if(cocktailOfTheDay != selectDailyCocktail()){
+        console.log(selectDailyCocktail())
+        console.log(selectDailyCocktail())
+        console.log(selectDailyCocktail())
         const id = cocktails.findIndex((v)=>v.name == cocktailOfTheDay.name)
         urlStr = urlStr+'?id='+(id+1)
     }
