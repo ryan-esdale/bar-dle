@@ -92,6 +92,11 @@ function selectRandomCocktail() {
     return cocktails[rand];
 }
 
+function selectCocktailFromURL() {
+    const urlDrinkID = new URLSearchParams(window.location.search).get('id')
+    return cocktails[urlDrinkID];
+}
+
 // Set game mode functions
 function setNameMode() {
     gameMode = GAMEMODES.NAME;
@@ -117,10 +122,10 @@ function initGame(random) {
     gameWin = false;
     // Choose a cocktail (here using random selection)
     if (random) {
-
         cocktailOfTheDay = selectRandomCocktail();
+    } else if (new URLSearchParams(window.location.search).has('id')) {
+        cocktailOfTheDay = selectCocktailFromURL()
     } else {
-
         cocktailOfTheDay = selectDailyCocktail();
     }
 
@@ -306,16 +311,23 @@ async function copyResultsToClipboard() {
     Array(guesses.length - 1).fill(1).forEach(() => t = t + "🟨\n")
     t = t + (gameWin ? "🟩" : "🟥")
 
+    let urlStr = 'https://ryan-esdale.github.io/bar-dle/';
+    if(cocktailOfTheDay != selectDailyCocktail()){
+        const id = cocktails.findIndex((v)=>v.name == cocktailOfTheDay.name)
+        urlStr = urlStr+'?id='+id
+        console.log(urlStr)
+    }
+
     if (navigator.share) {
         try {
-            await navigator.share({ url: 'https://ryan-esdale.github.io/bar-dle/', text: t, title: 'Today\'s Bar-dle score!' });
+            await navigator.share({ url: urlStr, text: t, title: 'Today\'s Bar-dle score!' });
         } catch (err) {
             console.error('Error sharing content:', err);
         }
     } else {
         // Fallback for browsers that do not support the Web Share API
         alert('Sharing is not supported on this device. Results copied to clipboard.');
-        navigator.clipboard.writeText(t);
+        navigator.clipboard.writeText(t+"\n"+urlStr);
     }
 }
 
