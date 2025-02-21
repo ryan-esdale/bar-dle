@@ -129,6 +129,14 @@ function initGame(random) {
         cocktailOfTheDay = selectDailyCocktail();
     }
 
+    // let urlStr = 'localhost:8000/';
+    // if(cocktailOfTheDay != selectDailyCocktail()){
+    //     const id = cocktails.findIndex((v)=>v.name == cocktailOfTheDay.name)
+    //     urlStr = urlStr+'?id='+(id+1)
+    //     console.log(urlStr)
+    //     console.log(cocktails[id])
+    // }
+
     // Reset revealed ingredients count:
     // In name mode, start by showing one hint.
     // In ingredient mode, start with zero revealed ingredients.
@@ -166,7 +174,7 @@ function updateHints() {
         // const ingredient = cocktailOfTheDay.ingredients[revealedIngredientCount - 1];
         // if (ingredient == cocktailOfTheDay.ingredients[cocktailOfTheDay.ingredients.length - 1] && (!revealedIngredientCount == cocktailOfTheDay.ingredients.length))
         //     return
-        console.log(typeof (revealedIngredients))
+        // console.log(typeof (revealedIngredients))
         cocktailOfTheDay.ingredients.forEach((ingredient, index) => {
             if (index >= revealedIngredientCount || revealedIngredients.includes(ingredient))
                 return
@@ -314,8 +322,9 @@ async function copyResultsToClipboard() {
     let urlStr = 'https://ryan-esdale.github.io/bar-dle/';
     if(cocktailOfTheDay != selectDailyCocktail()){
         const id = cocktails.findIndex((v)=>v.name == cocktailOfTheDay.name)
-        urlStr = urlStr+'?id='+id
+        urlStr = urlStr+'?id='+(id+1)
         console.log(urlStr)
+        console.log(cocktails[1])
     }
 
     if (navigator.share) {
@@ -334,7 +343,7 @@ async function copyResultsToClipboard() {
 // Event listeners
 document.getElementById('submit-guess').addEventListener('click', makeGuess);
 document.getElementById('guess-input').addEventListener('keyup', (event) => {
-    console.log(window.getComputedStyle(document.getElementById('popup-container')).getPropertyValue('visibility'))
+    // console.log(window.getComputedStyle(document.getElementById('popup-container')).getPropertyValue('visibility'))
     if (event.key === 'Enter') {
         if (window.getComputedStyle(document.getElementById('popup-container')).getPropertyValue('visibility') == 'visible') {
             document.getElementById('popup-confirmation').click();
