@@ -336,7 +336,7 @@ async function copyResultsToClipboard() {
         console.log(selectDailyCocktail())
         console.log(selectDailyCocktail())
         console.log(selectDailyCocktail())
-        const id = shuffledList.findIndex((v)=>v.name == cocktailOfTheDay.name)
+        const id = cocktails.findIndex((v)=>v.name == cocktailOfTheDay.name)
         urlStr = urlStr+'?id='+(id+1)
     }
 
