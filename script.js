@@ -323,8 +323,9 @@ async function copyResultsToClipboard() {
 
     if (navigator.share) {
         try {
-            await navigator.share({ url: urlStr, text: t, title: 'Today\'s Bar-dle score!' });
+            await navigator.share({ url: urlStr, text: t, title: 'Bar-dle score!' });
         } catch (err) {
+            alert(err)
             console.error('Error sharing content:', err);
         }
     } else {
