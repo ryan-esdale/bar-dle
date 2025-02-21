@@ -313,7 +313,7 @@ function swapSpecs() {
 async function copyResultsToClipboard() {
     let t = `Bar-dle ${guesses.length}/?\n`;
     Array(guesses.length - 1).fill(1).forEach(() => t = t + "🟨\n")
-    t = t + (gameWin ? "🟩" : "🟥")
+    t = t + (gameWin ? "🟩\n" : "🟥\n")
 
     let urlStr = 'https://ryan-esdale.github.io/bar-dle/';
     if(cocktailOfTheDay != selectDailyCocktail()){
@@ -330,7 +330,7 @@ async function copyResultsToClipboard() {
     } else {
         // Fallback for browsers that do not support the Web Share API
         alert('Sharing is not supported on this device. Results copied to clipboard.');
-        navigator.clipboard.writeText(t+"\n"+urlStr);
+        navigator.clipboard.writeText(t+urlStr);
     }
 }
 
