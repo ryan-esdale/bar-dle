@@ -129,14 +129,6 @@ function initGame(random) {
         cocktailOfTheDay = selectDailyCocktail();
     }
 
-    // let urlStr = 'localhost:8000/';
-    // if(cocktailOfTheDay != selectDailyCocktail()){
-    //     const id = cocktails.findIndex((v)=>v.name == cocktailOfTheDay.name)
-    //     urlStr = urlStr+'?id='+(id+1)
-    //     console.log(urlStr)
-    //     console.log(cocktails[id])
-    // }
-
     // Reset revealed ingredients count:
     // In name mode, start by showing one hint.
     // In ingredient mode, start with zero revealed ingredients.
@@ -323,8 +315,6 @@ async function copyResultsToClipboard() {
     if(cocktailOfTheDay != selectDailyCocktail()){
         const id = cocktails.findIndex((v)=>v.name == cocktailOfTheDay.name)
         urlStr = urlStr+'?id='+(id+1)
-        console.log(urlStr)
-        console.log(cocktails[1])
     }
 
     if (navigator.share) {
