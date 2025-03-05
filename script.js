@@ -8,28 +8,29 @@ let shuffledList = [];
 let cocktailOfTheDay = undefined;
 let revealedIngredients = [];
 let revealedIngredientCount = 0;
-let gameMode = GAMEMODES.NAME;
+let gameMode = GAMEMODES.SPEC;
 let gameWin = false;
 let guesses = []; // for ingredient mode
 let incorrectGuesses = [];
+let hardMode = true;
 const ctcSpecs = '21stAmendmentCocktails.json';
 const ibaSpecs = 'iba-cocktails-web.json';
 const randSeed = 32198732154983;
 let currectSpec = ibaSpecs;
 
 
-function loadAndShuffle(){
+function loadAndShuffle() {
     fetch(ctcSpecs)
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        return response.json();
-    })
-    .then(data => {
-        shuffledList = shuffle(data);
-    })
-    .catch(error => console.error('Error loading cocktails:', error));
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            shuffledList = shuffle(data);
+        })
+        .catch(error => console.error('Error loading cocktails:', error));
 }
 document.addEventListener('DOMContentLoaded', loadAndShuffle());
 
@@ -100,7 +101,7 @@ function selectDailyCocktail() {
     const diff = today - start;
     const oneDay = 1000 * 60 * 60 * 24;
     const dayOfYear = Math.floor(diff / oneDay);
-    return cocktails[dayOfYear%cocktails.length]
+    return cocktails[dayOfYear % cocktails.length]
 }
 
 function selectRandomCocktail() {
@@ -114,18 +115,17 @@ function selectCocktailFromURL() {
 }
 
 // Set game mode functions
-function setNameMode() {
-    gameMode = GAMEMODES.NAME;
-    document.getElementById('name-mode-button').style.visibility = 'collapse'
-    document.getElementById('ingredient-mode-button').style.visibility = 'visible'
-    initGame();
-}
+function toggleGameMode() {
 
-function setIngredientMode() {
-    gameMode = GAMEMODES.SPEC;
-    document.getElementById('name-mode-button').style.visibility = 'visible'
-    document.getElementById('ingredient-mode-button').style.visibility = 'collapse';
-    initGame();
+    if (gameMode == GAMEMODES.NAME) {
+        gameMode = GAMEMODES.SPEC;
+        document.getElementById('game-mode-button').innerText = 'Switch to Names'
+        initGame(true);
+    } else {
+        gameMode = GAMEMODES.NAME;
+        document.getElementById('game-mode-button').innerText = 'Switch to Specs'
+        initGame();
+    }
 }
 
 // Initialize the game
@@ -156,10 +156,14 @@ function initGame(random) {
 
     // If in ingredient mode, show the cocktail name immediately.
     if (gameMode === GAMEMODES.SPEC) {
+        document.getElementById('mode-description').textContent =
+            `Guess the ingrdients of this cocktail!\n${hardMode ? 'Hard Mode: measures are required' : 'Easy Mode: Just guess ingredients, no measures!'}`;
+
+        document.getElementById('drink-name').style.display = 'block';
         document.getElementById('drink-name').textContent = cocktailOfTheDay.name;
     } else if (gameMode === GAMEMODES.NAME) {
         document.getElementById('mode-description').textContent =
-            `Guess the name of this cocktail before all ingredients are revealed!\n(Each incorrect guess will reveal one additional ingredient.)`
+            `Guess the name of this cocktail before all ingredients are revealed!\n(Each incorrect guess will reveal one additional ingredient.)`;
     }
     updateHints();
 }
@@ -199,20 +203,46 @@ function updateHints() {
         })
         // });
     } else if (gameMode === GAMEMODES.SPEC) {
+        hintsDiv.innerHTML = ''
         // In ingredient mode, show the cocktail name (already displayed) and
         // list each ingredient. For each ingredient, if it has been guessed or its index is less than revealedIngredients,
         // show its details; otherwise show "???"
+        console.log(guesses)
         cocktailOfTheDay.ingredients.forEach((ingredient, index) => {
             const ingredientEl = document.createElement('div');
             // Check if this ingredient has been guessed or has been revealed
-            if (guesses.includes(ingredient.ingredient) || index < revealedIngredients) {
-                ingredientEl.textContent = `${ingredient.quantity} ${ingredient.unit} of ${ingredient.ingredient}`;
+            if (hardMode) {
+                const matchedGuess = guesses.find((v) => { return (v.ingredient == ingredient.ingredient) })
+                if (matchedGuess) {
+                    if (matchedGuess.quantity == ingredient.quantity) {
+                        ingredientEl.textContent = `${ingredient.quantity} ${ingredient.unit} of ${ingredient.ingredient}`;
+                        // return
+                    } else {
+                        // hintsDiv.appendChild(ingredientEl);
+                        ingredientEl.textContent = `??? ${ingredient.unit} of ${ingredient.ingredient}`;
+                        // return
+                    }
+                } else {
+                    // hintsDiv.appendChild(ingredientEl);
+                    ingredientEl.textContent = "???";
+                    // return
+                }
             } else {
-                ingredientEl.textContent = "???";
+
+                if (guesses.includes(ingredient.ingredient) || index < revealedIngredients) {
+                    // hintsDiv.appendChild(ingredientEl);
+                    ingredientEl.textContent = `${ingredient.quantity} ${ingredient.unit} of ${ingredient.ingredient}`;
+                    // return
+                } else {
+                    // hintsDiv.appendChild(ingredientEl);
+                    ingredientEl.textContent = "???";
+                    // return
+                }
             }
             hintsDiv.appendChild(ingredientEl);
         });
     }
+
 }
 
 // Called when the user clicks the guess button or hits Enter
@@ -260,20 +290,57 @@ function guessDrink() {
 // New function: guessing an ingredient ("ingredient mode")
 function guessIngredient() {
     const guessInput = document.getElementById('guess-input');
-    const guess = guessInput.value.trim().toLowerCase();
     const messageDiv = document.getElementById('message');
+    let guess = guessInput.value.trim().toLowerCase();
+    let guessMeasure = 0;
 
     if (!guess) return;
+
+    if (hardMode) {
+
+        console.log(guess)
+
+        guessMeasure = guess.split(' ', 1)[0]
+        if (!Number(guessMeasure)) {
+            guessMeasure = 0
+        } else {
+            guess = guess.replace(guessMeasure + " ", "")
+        }
+
+
+    }
 
     // Check if the guessed ingredient is one of the cocktail's ingredients (compare by name)
     let found = false;
     cocktailOfTheDay.ingredients.forEach(ingredient => {
         if (ingredient.ingredient.toLowerCase() === guess || ingredient.ingredient.toLowerCase().includes(guess)) {
-            found = true;
-            // If not already guessed, add to guessedIngredients
-            if (!guesses.includes(ingredient.ingredient)) {
-                guesses.push(ingredient.ingredient);
+
+            if (hardMode) {
+
+                if (ingredient.quantity == guessMeasure) {
+                    console.log("measure guessed")
+                    let g = guesses.find((v) => v.ingredient == ingredient.ingredient)
+                    if (!g) {
+                        guesses.push({ ingredient: ingredient.ingredient, quantity: ingredient.quantity });
+                    } else {
+                        g.quantity = ingredient.quantity
+                    }
+                } else {
+                    console.log("correct ingredient, incorrect measure")
+                    if (!guesses.find((v) => v.ingredient == ingredient.ingredient)) {
+                        guesses.push({ ingredient: ingredient.ingredient, quantity: 0 });
+                    }
+                }
+
+            } else {
+
+                // If not already guessed, add to guessedIngredients
+                if (!guesses.includes(ingredient.ingredient)) {
+                    guesses.push(ingredient.ingredient);
+                }
             }
+
+            found = true;
         }
     });
 
@@ -290,6 +357,8 @@ function guessIngredient() {
         }
     }
 
+    console.log(guesses);
+
     updateHints();
     guessInput.value = "";
 
@@ -305,11 +374,23 @@ function guessIngredient() {
 
 // Give up function: reveal full details
 function giveUp() {
-    document.getElementById('guess-input').disabled = true;
-    document.getElementById('drink-name').textContent = cocktailOfTheDay.name;
-    document.getElementById('drink-name').style.display = 'block';
-    document.getElementById('drink-name').scrollIntoView();
-    revealedIngredientCount = cocktailOfTheDay.ingredients.length + 1;
+    if (gameMode == GAMEMODES.NAME) {
+
+        document.getElementById('guess-input').disabled = true;
+        const dn = document.getElementById('drink-name')
+        dn.textContent = cocktailOfTheDay.name;
+        dn.style.display = 'block';
+        const divider = document.createElement('div')
+        divider.id = 'vertical-divider'
+        dn.after(divider)
+        scrollTo(0, 'smooth')
+    }
+
+    if (gameMode == GAMEMODES.SPEC) {
+        cocktailOfTheDay.ingredients.map((v) => guesses.push(v))
+        revealedIngredientCount = cocktailOfTheDay.ingredients.length + 1;
+    }
+
     updateHints();
 }
 
@@ -332,12 +413,12 @@ async function copyResultsToClipboard() {
     t = t + (gameWin ? "🟩\n" : "🟥\n")
 
     let urlStr = 'https://ryan-esdale.github.io/bar-dle/';
-    if(cocktailOfTheDay != selectDailyCocktail()){
+    if (cocktailOfTheDay != selectDailyCocktail()) {
         console.log(selectDailyCocktail())
         console.log(selectDailyCocktail())
         console.log(selectDailyCocktail())
-        const id = cocktails.findIndex((v)=>v.name == cocktailOfTheDay.name)
-        urlStr = urlStr+'?id='+(id)
+        const id = cocktails.findIndex((v) => v.name == cocktailOfTheDay.name)
+        urlStr = urlStr + '?id=' + (id)
     }
 
     if (navigator.share) {
@@ -350,7 +431,7 @@ async function copyResultsToClipboard() {
     } else {
         // Fallback for browsers that do not support the Web Share API
         alert('Sharing is not supported on this device. Results copied to clipboard.');
-        navigator.clipboard.writeText(t+urlStr);
+        navigator.clipboard.writeText(t + urlStr);
     }
 }
 
@@ -368,8 +449,7 @@ document.getElementById('guess-input').addEventListener('keyup', (event) => {
 document.getElementById('give-up-button').addEventListener('click', giveUp);
 document.getElementById('refresh-game').addEventListener('click', () => initGame(true));
 
-document.getElementById('name-mode-button').addEventListener('click', setNameMode);
-document.getElementById('ingredient-mode-button').addEventListener('click', setIngredientMode);
+document.getElementById('game-mode-button').addEventListener('click', toggleGameMode);
 
 document.getElementById('switch-spec-list-button').addEventListener('click', swapSpecs);
 

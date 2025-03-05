@@ -34,7 +34,7 @@ button:hover {
     text-align: center;
     background: #222;
     color: whitesmoke;
-    padding: 20px;
+    padding: 10px;
 }
 
 #game-container {
@@ -119,11 +119,19 @@ button:hover {
     background-color: #38c538;
 }
 
+#vertical-divider {
+    width: 100%;
+    min-height: 2px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #808080;
+}
+
 #game-title {
     padding-top: 20px;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #606060;
+    padding-bottom: 5px;
+    /* margin-bottom: 30px; */
+    /* border-bottom: 2px solid #606060; */
     font-size: 36px;
     font-weight: bold;
 }
@@ -141,7 +149,7 @@ button:hover {
     border-radius: 5px;
 
     font-size: 24px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 
     animation-duration: 1s;
     animation-name: highlight-pop;
@@ -179,21 +187,31 @@ button:hover {
     }
 }
 
+#guess-area {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
 #guess-area input {
-    width: 70%;
+    /* flex: 0.8; */
     padding: 10px;
+    width: 100%;
     font-size: 16px;
 }
 
-/* 
-#guess-area button {
-    padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-} */
+#button-row {
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-#give-up-button {
-    margin: 8px;
+#button-row button {
+    margin-top: 5px;
+    font-size: 14px;
+    white-space: nowrap;
 }
 
 #serve-text {
@@ -204,7 +222,7 @@ button:hover {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
 }
 
 #footer-buttons button {
