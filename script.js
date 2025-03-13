@@ -382,12 +382,13 @@ function giveUp() {
         dn.style.display = 'block';
         const divider = document.createElement('div')
         divider.id = 'vertical-divider'
-        dn.after(divider)
+        dn.append(divider)
         scrollTo(0, 'smooth')
     }
 
     if (gameMode == GAMEMODES.SPEC) {
-        cocktailOfTheDay.ingredients.map((v) => guesses.push(v))
+        guesses = [];
+        cocktailOfTheDay.ingredients.map((v) => guesses.push(v));
         revealedIngredientCount = cocktailOfTheDay.ingredients.length + 1;
     }
 
