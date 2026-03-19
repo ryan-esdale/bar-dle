@@ -16,7 +16,7 @@ let hardMode = true;
 const ctcSpecs = '21stAmendmentCocktails.json';
 const ibaSpecs = 'iba-cocktails-web.json';
 const randSeed = 32198732154983;
-let currectSpec = ibaSpecs;
+let currectSpec = ctcSpecs;
 
 
 function loadAndShuffle() {
@@ -207,7 +207,7 @@ function updateHints() {
         // In ingredient mode, show the cocktail name (already displayed) and
         // list each ingredient. For each ingredient, if it has been guessed or its index is less than revealedIngredients,
         // show its details; otherwise show "???"
-        console.log(guesses)
+        //console.log(guesses)
         cocktailOfTheDay.ingredients.forEach((ingredient, index) => {
             const ingredientEl = document.createElement('div');
             // Check if this ingredient has been guessed or has been revealed
