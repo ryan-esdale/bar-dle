@@ -161,9 +161,11 @@ function initGame(random) {
 
         document.getElementById('drink-name').style.display = 'block';
         document.getElementById('drink-name').textContent = cocktailOfTheDay.name;
+        document.getElementById('guess-input').setAttribute('placeholder', 'e.g. 50 white rum');
     } else if (gameMode === GAMEMODES.NAME) {
         document.getElementById('mode-description').textContent =
             `Guess the name of this cocktail before all ingredients are revealed!\n(Each incorrect guess will reveal one additional ingredient.)`;
+        document.getElementById('guess-input').setAttribute('placeholder', 'Guess the cocktail...');
     }
     updateHints();
 }
